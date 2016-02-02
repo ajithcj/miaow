@@ -1,0 +1,800 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run tar$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_AR	Makefile	/^AM_V_AR = $(am__v_AR_$(V))$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+ARCH_SOUTHERN_ISLANDS_ARG_H	arg.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_ASM_BIN_FILE_H	bin-file.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_ASM_H	asm.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_INPUT_H	input.h	21;"	d
+ARFLAGS	Makefile	/^ARFLAGS = cru$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCAS	Makefile	/^CCAS = gcc$/;"	m
+CCASDEPMODE	Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
+CCASFLAGS	Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -msse2 -O3 -std=gnu99 -DNDEBUG$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIR	Makefile	/^DATADIR = ${prefix}\/share$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = $/;"	m
+DEFINST	asm.c	252;"	d	file:
+DEFINST	asm.c	262;"	d	file:
+DEFINST	asm.h	406;"	d
+DEFINST	asm.h	410;"	d
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"multi2sim\\" -DPACKAGE_TARNAME=\\"multi2sim\\" -DPACKAGE_VERSION=\\"4.2\\" -DPACKAGE_STRING=\\"multi2sim\\ 4.2\\" -DPACKAGE_BUGREPORT=\\"\\" -DPACKAGE=\\"multi2sim\\" -DVERSION=\\"4.2\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\\".libs\/\\" -DSTDC_HEADERS=1 -DHAVE_SYS_WAIT_H=1 -DHAVE_FCNTL_H=1 -DHAVE_FLOAT_H=1 -DHAVE_STDDEF_H=1 -DHAVE_STDINT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_UNISTD_H=1 -DHAVE_UTIME_H=1 -DHAVE_ELF_H=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_RDEV=1 -DHAVE_UNISTD_H=1 -DHAVE_CHOWN=1 -DLSTAT_FOLLOWS_SLASHED_SYMLINK=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_STDLIB_H=1 -DHAVE_REALLOC=1 -DHAVE_ALARM=1 -DHAVE_BZERO=1 -DHAVE_FTRUNCATE=1 -DHAVE_GETCWD=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_MEMSET=1 -DHAVE_MKDIR=1 -DHAVE_MUNMAP=1 -DHAVE_SELECT=1 -DHAVE_SOCKET=1 -DHAVE_STRCASECMP=1 -DHAVE_STRCHR=1 -DHAVE_STRDUP=1 -DHAVE_STRNCASECMP=1 -DHAVE_STRTOL=1 -DHAVE_UTIME=1 -DHAVE_SSE4=1 -DHAVE_SYNC_BUILTINS=1 -DYYTEXT_POINTER=1 -DHAVE_FLEX_BISON=1$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libasm_a_SOURCES)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+E_SC_USER_DATA_CLASS	bin-file.h	/^} E_SC_USER_DATA_CLASS;$/;"	t	typeref:enum:_E_SC_USER_DATA_CLASS
+E_SC_USER_DATA_CLASS_LAST	bin-file.h	/^	E_SC_USER_DATA_CLASS_LAST$/;"	e	enum:_E_SC_USER_DATA_CLASS
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+IMM_ALU_BOOL32_CONST	bin-file.h	/^	IMM_ALU_BOOL32_CONST,       \/\/ 32 immediate bools packed into a single UINT$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_ALU_FLOAT_CONST	bin-file.h	/^	IMM_ALU_FLOAT_CONST,        \/\/ immediate float const (scalar or vector)$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_CONST_BUFFER	bin-file.h	/^	IMM_CONST_BUFFER,           \/\/ immediate const buffer descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_CONTEXT_BASE	bin-file.h	/^	IMM_CONTEXT_BASE,           \/\/ immediate HSAIL context base-address$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_DISPATCH_ID	bin-file.h	/^	IMM_DISPATCH_ID,            \/\/ immediate HSAIL dispatch ID$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_GDS_COUNTER_RANGE	bin-file.h	/^	IMM_GDS_COUNTER_RANGE,      \/\/ immediate UINT with GDS address range for counters$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_GDS_MEMORY_RANGE	bin-file.h	/^	IMM_GDS_MEMORY_RANGE,       \/\/ immediate UINT with GDS address range for storage$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_GWS_BASE	bin-file.h	/^	IMM_GWS_BASE,               \/\/ immediate UINT with GWS resource base offset$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_HEAP_BUFFER	bin-file.h	/^	IMM_HEAP_BUFFER,            \/\/ immediate HSAIL heap buffer descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_KERNEL_ARG	bin-file.h	/^	IMM_KERNEL_ARG,             \/\/ immediate HSAIL kernel argument$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_LDS_ESGS_SIZE	bin-file.h	/^	IMM_LDS_ESGS_SIZE,          \/\/ immediate LDS ESGS size used in on-chip GS$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_RESOURCE	bin-file.h	/^	IMM_RESOURCE,               \/\/ immediate resource descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_SAMPLER	bin-file.h	/^	IMM_SAMPLER,                \/\/ immediate sampler descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_SCRATCH_BUFFER	bin-file.h	/^	IMM_SCRATCH_BUFFER,         \/\/ immediate HSAIL scratch buffer descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_UAV	bin-file.h	/^	IMM_UAV,                    \/\/ immediate UAV descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_VERTEX_BUFFER	bin-file.h	/^	IMM_VERTEX_BUFFER,          \/\/ immediate vertex buffer descriptor$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_WORK_GROUP_RANGE	bin-file.h	/^	IMM_WORK_GROUP_RANGE,       \/\/ immediate HSAIL work group range$/;"	e	enum:_E_SC_USER_DATA_CLASS
+IMM_WORK_ITEM_RANGE	bin-file.h	/^	IMM_WORK_ITEM_RANGE,        \/\/ immediate HSAIL work item range$/;"	e	enum:_E_SC_USER_DATA_CLASS
+INCLUDES	Makefile	/^INCLUDES =  -I$(top_srcdir) -I$(top_srcdir)\/src $/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LEX	Makefile	/^LEX = flex$/;"	m
+LEXLIB	Makefile	/^LEXLIB = -lfl$/;"	m
+LEX_OUTPUT_ROOT	Makefile	/^LEX_OUTPUT_ROOT = lex.yy$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBRARIES	Makefile	/^LIBRARIES = $(lib_LIBRARIES)$/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LLVM_CFLAGS	Makefile	/^LLVM_CFLAGS = $/;"	m
+LLVM_CXXFLAGS	Makefile	/^LLVM_CXXFLAGS = $/;"	m
+LLVM_LDFLAGS	Makefile	/^LLVM_LDFLAGS = $/;"	m
+LLVM_LIBS	Makefile	/^LLVM_LIBS = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+M2S_INCLUDES	Makefile	/^M2S_INCLUDES =  -I$(top_srcdir) -I$(top_srcdir)\/src $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run makeinfo$/;"	m
+MAX_DAT_STR_SIZE	asm.c	56;"	d	file:
+MAX_INST_STR_SIZE	asm.h	492;"	d
+MAX_OPERAND_STR_SIZE	asm.c	55;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OPENGL_LDFLAGS	Makefile	/^OPENGL_LDFLAGS = -lGL -lGLU -lGLEW -lglut$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = multi2sim$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = multi2sim$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = multi2sim 4.2$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = multi2sim$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 4.2$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKGDATADIR	Makefile	/^PKGDATADIR = ${datarootdir}\/multi2sim$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PTR_CONST_BUFFER_TABLE	bin-file.h	/^	PTR_CONST_BUFFER_TABLE,     \/\/ flat\/chunked const buffer table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_EXTENDED_USER_DATA	bin-file.h	/^	PTR_EXTENDED_USER_DATA,     \/\/ extended user data in video memory$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_INDIRECT_INTERNAL_RESOURCE	bin-file.h	/^	PTR_INDIRECT_INTERNAL_RESOURCE,\/\/ pointer to internal resource indirection table$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_INDIRECT_RESOURCE	bin-file.h	/^	PTR_INDIRECT_RESOURCE,      \/\/ pointer to resource indirection table$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_INDIRECT_UAV	bin-file.h	/^	PTR_INDIRECT_UAV,           \/\/ pointer to UAV indirection table$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_INTERNAL_GLOBAL_TABLE	bin-file.h	/^	PTR_INTERNAL_GLOBAL_TABLE,  \/\/ internal driver table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_INTERNAL_RESOURCE_TABLE	bin-file.h	/^	PTR_INTERNAL_RESOURCE_TABLE,\/\/ flat\/chunked internal resource table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_RESOURCE_TABLE	bin-file.h	/^	PTR_RESOURCE_TABLE,         \/\/ flat\/chunked resource table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_SAMPLER_TABLE	bin-file.h	/^	PTR_SAMPLER_TABLE,          \/\/ flat\/chunked sampler table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_SO_BUFFER_TABLE	bin-file.h	/^	PTR_SO_BUFFER_TABLE,        \/\/ flat\/chunked stream-out buffer table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_UAV_TABLE	bin-file.h	/^	PTR_UAV_TABLE,              \/\/ flat\/chunked UAV resource table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+PTR_VERTEX_BUFFER_TABLE	bin-file.h	/^	PTR_VERTEX_BUFFER_TABLE,    \/\/ flat\/chunked vertex buffer table pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SI_ABI_MAX_USER_ELEMENTS	bin-file.h	36;"	d
+SI_BIN_FILE_NOT_SUPPORTED	bin-file.c	30;"	d	file:
+SI_BIN_FILE_NOT_SUPPORTED_NEQ	bin-file.c	32;"	d	file:
+SI_FMT_COUNT	asm.h	/^	SI_FMT_COUNT$/;"	e	enum:si_fmt_enum
+SI_FMT_DS	asm.h	/^	SI_FMT_DS,$/;"	e	enum:si_fmt_enum
+SI_FMT_EXP	asm.h	/^	SI_FMT_EXP,$/;"	e	enum:si_fmt_enum
+SI_FMT_MIMG	asm.h	/^	SI_FMT_MIMG,$/;"	e	enum:si_fmt_enum
+SI_FMT_MTBUF	asm.h	/^	SI_FMT_MTBUF,$/;"	e	enum:si_fmt_enum
+SI_FMT_MUBUF	asm.h	/^	SI_FMT_MUBUF,$/;"	e	enum:si_fmt_enum
+SI_FMT_NONE	asm.h	/^	SI_FMT_NONE = 0,$/;"	e	enum:si_fmt_enum
+SI_FMT_SMRD	asm.h	/^	SI_FMT_SMRD,$/;"	e	enum:si_fmt_enum
+SI_FMT_SOP1	asm.h	/^	SI_FMT_SOP1,$/;"	e	enum:si_fmt_enum
+SI_FMT_SOP2	asm.h	/^	SI_FMT_SOP2,$/;"	e	enum:si_fmt_enum
+SI_FMT_SOPC	asm.h	/^	SI_FMT_SOPC,$/;"	e	enum:si_fmt_enum
+SI_FMT_SOPK	asm.h	/^	SI_FMT_SOPK,$/;"	e	enum:si_fmt_enum
+SI_FMT_SOPP	asm.h	/^	SI_FMT_SOPP,$/;"	e	enum:si_fmt_enum
+SI_FMT_VINTRP	asm.h	/^	SI_FMT_VINTRP,$/;"	e	enum:si_fmt_enum
+SI_FMT_VOP1	asm.h	/^	SI_FMT_VOP1,$/;"	e	enum:si_fmt_enum
+SI_FMT_VOP2	asm.h	/^	SI_FMT_VOP2,$/;"	e	enum:si_fmt_enum
+SI_FMT_VOP3a	asm.h	/^	SI_FMT_VOP3a,$/;"	e	enum:si_fmt_enum
+SI_FMT_VOP3b	asm.h	/^	SI_FMT_VOP3b,$/;"	e	enum:si_fmt_enum
+SI_FMT_VOPC	asm.h	/^	SI_FMT_VOPC,$/;"	e	enum:si_fmt_enum
+SI_INST_CAT_COUNT	asm.h	/^	SI_INST_CAT_COUNT$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_DS	asm.h	/^	SI_INST_CAT_DS,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_MIMG	asm.h	/^	SI_INST_CAT_MIMG,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_MTBUF	asm.h	/^	SI_INST_CAT_MTBUF,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_MUBUF	asm.h	/^	SI_INST_CAT_MUBUF,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_NONE	asm.h	/^	SI_INST_CAT_NONE = 0,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_SMRD	asm.h	/^	SI_INST_CAT_SMRD,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_SOP1	asm.h	/^	SI_INST_CAT_SOP1,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_SOP2	asm.h	/^	SI_INST_CAT_SOP2,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_SOPC	asm.h	/^	SI_INST_CAT_SOPC,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_SOPK	asm.h	/^	SI_INST_CAT_SOPK,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_SOPP	asm.h	/^	SI_INST_CAT_SOPP,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_VINTRP	asm.h	/^	SI_INST_CAT_VINTRP,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_VOP1	asm.h	/^	SI_INST_CAT_VOP1,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_VOP2	asm.h	/^	SI_INST_CAT_VOP2,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_VOP3a	asm.h	/^	SI_INST_CAT_VOP3a,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_VOP3b	asm.h	/^	SI_INST_CAT_VOP3b,$/;"	e	enum:si_inst_category_t
+SI_INST_CAT_VOPC	asm.h	/^	SI_INST_CAT_VOPC,$/;"	e	enum:si_inst_category_t
+SI_INST_COUNT	asm.h	/^	SI_INST_COUNT$/;"	e	enum:si_inst_opcode_t
+SI_INST_FLAG_NONE	asm.h	/^	SI_INST_FLAG_NONE = 0x0000,$/;"	e	enum:si_inst_flag_t
+SI_INST_FLAG_OP16	asm.h	/^	SI_INST_FLAG_OP16 = 0x0002  \/* Opcode represents 16 comparison instructions *\/$/;"	e	enum:si_inst_flag_t
+SI_INST_FLAG_OP8	asm.h	/^	SI_INST_FLAG_OP8 = 0x0001,  \/* Opcode represents 8 comparison instructions *\/$/;"	e	enum:si_inst_flag_t
+SI_INST_INFO_DS_MAX_VALUE	asm.c	48;"	d	file:
+SI_INST_INFO_EXP_MAX_VALUE	asm.c	52;"	d	file:
+SI_INST_INFO_MIMG_MAX_VALUE	asm.c	51;"	d	file:
+SI_INST_INFO_MTBUF_MAX_VALUE	asm.c	49;"	d	file:
+SI_INST_INFO_MUBUF_MAX_VALUE	asm.c	50;"	d	file:
+SI_INST_INFO_SMRD_MAX_VALUE	asm.c	42;"	d	file:
+SI_INST_INFO_SOP1_MAX_VALUE	asm.c	39;"	d	file:
+SI_INST_INFO_SOP2_MAX_VALUE	asm.c	41;"	d	file:
+SI_INST_INFO_SOPC_MAX_VALUE	asm.c	38;"	d	file:
+SI_INST_INFO_SOPK_MAX_VALUE	asm.c	40;"	d	file:
+SI_INST_INFO_SOPP_MAX_VALUE	asm.c	37;"	d	file:
+SI_INST_INFO_VINTRP_MAX_VALUE	asm.c	47;"	d	file:
+SI_INST_INFO_VOP1_MAX_VALUE	asm.c	45;"	d	file:
+SI_INST_INFO_VOP2_MAX_VALUE	asm.c	46;"	d	file:
+SI_INST_INFO_VOP3_MAX_VALUE	asm.c	43;"	d	file:
+SI_INST_INFO_VOPC_MAX_VALUE	asm.c	44;"	d	file:
+SI_INST_NONE	asm.h	/^	SI_INST_NONE = 0,$/;"	e	enum:si_inst_opcode_t
+SOURCES	Makefile	/^SOURCES = $(libasm_a_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SUB_PTR_FETCH_SHADER	bin-file.h	/^	SUB_PTR_FETCH_SHADER,       \/\/ fetch shader subroutine pointer$/;"	e	enum:_E_SC_USER_DATA_CLASS
+VERSION	Makefile	/^VERSION = 4.2$/;"	m
+YACC	Makefile	/^YACC = bison -y$/;"	m
+YFLAGS	Makefile	/^YFLAGS = $/;"	m
+_E_SC_USER_DATA_CLASS	bin-file.h	/^typedef enum _E_SC_USER_DATA_CLASS$/;"	g
+abs	asm.h	/^        unsigned int abs      : 3;   \/*  [10:8] *\/$/;"	m	struct:si_fmt_vop3a_t
+abs_builddir	Makefile	/^abs_builddir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/src\/arch\/southern-islands\/asm$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/src\/arch\/southern-islands\/asm$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+access_type	arg.h	/^	enum si_arg_access_type_t access_type;$/;"	m	struct:si_arg_image_t	typeref:enum:si_arg_image_t::si_arg_access_type_t
+access_type	arg.h	/^	enum si_arg_access_type_t access_type;$/;"	m	struct:si_arg_pointer_t	typeref:enum:si_arg_pointer_t::si_arg_access_type_t
+addr	asm.h	/^        unsigned int addr     : 8;   \/* [39:32] *\/$/;"	m	struct:si_fmt_ds_t
+addr64	asm.h	/^        unsigned int addr64    : 1;   \/*     15  *\/$/;"	m	struct:si_fmt_mubuf_t
+addr64	asm.h	/^        unsigned int addr64   : 1;   \/*     15  *\/$/;"	m	struct:si_fmt_mtbuf_t
+address	bin-file.h	/^	Elf32_Word address;  \/* Device address *\/$/;"	m	struct:pt_note_prog_info_entry_t
+alignment	arg.h	/^	int alignment;$/;"	m	struct:si_arg_pointer_t
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__v_AR_	Makefile	/^am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_AR_0	Makefile	/^am__v_AR_0 = @echo "  AR    " $@;$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libasm_a_OBJECTS	Makefile	/^am_libasm_a_OBJECTS = arg.$(OBJEXT) asm.$(OBJEXT) bin-file.$(OBJEXT) \\$/;"	m
+apiSlot	bin-file.h	/^	unsigned int apiSlot;$/;"	m	struct:si_bin_enc_user_element_t
+as_byte	asm.h	/^	signed char as_byte[4];$/;"	m	union:si_reg_t
+as_float	asm.h	/^	float as_float;$/;"	m	union:si_reg_t
+as_int	asm.h	/^	signed int as_int;$/;"	m	union:si_reg_t
+as_short	asm.h	/^	signed short int as_short[2];$/;"	m	union:si_reg_t
+as_ubyte	asm.h	/^	unsigned char as_ubyte[4];$/;"	m	union:si_reg_t
+as_uint	asm.h	/^	unsigned int as_uint;$/;"	m	union:si_reg_t
+as_ushort	asm.h	/^	unsigned short int as_ushort[2];$/;"	m	union:si_reg_t
+attr	asm.h	/^        unsigned int attr     : 6;   \/* [15:10] *\/$/;"	m	struct:si_fmt_vintrp_t
+attrchan	asm.h	/^        unsigned int attrchan : 2;   \/*   [9:8] *\/$/;"	m	struct:si_fmt_vintrp_t
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bool_consts	bin-file.h	/^	unsigned int bool_consts[32];$/;"	m	struct:si_bin_enc_dict_entry_consts_t
+buffer_num	arg.h	/^	int buffer_num;$/;"	m	struct:si_arg_pointer_t
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+bytes	asm.h	/^	char bytes[8];$/;"	m	union:si_inst_microcode_t
+category	asm.h	/^	enum si_inst_category_t category;$/;"	m	struct:si_inst_info_t	typeref:enum:si_inst_info_t::si_inst_category_t
+clamp	asm.h	/^        unsigned int clamp    : 1;   \/*     11  *\/$/;"	m	struct:si_fmt_vop3a_t
+compr	asm.h	/^        unsigned int compr    : 1;   \/*     10  *\/$/;"	m	struct:si_fmt_exp_t
+compute_pgm_rsrc2	bin-file.h	/^	struct si_bin_compute_pgm_rsrc2_t *compute_pgm_rsrc2;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::si_bin_compute_pgm_rsrc2_t
+constant_buffer_num	arg.h	/^	int constant_buffer_num;$/;"	m	struct:si_arg_image_t
+constant_buffer_num	arg.h	/^	int constant_buffer_num;$/;"	m	struct:si_arg_pointer_t
+constant_buffer_num	arg.h	/^	int constant_buffer_num;$/;"	m	struct:si_arg_value_t
+constant_offset	arg.h	/^	int constant_offset;$/;"	m	struct:si_arg_image_t
+constant_offset	arg.h	/^	int constant_offset;$/;"	m	struct:si_arg_pointer_t
+constant_offset	arg.h	/^	int constant_offset;$/;"	m	struct:si_arg_value_t
+constarg	arg.h	/^	int constarg; \/*Set to true when argument is constant *\/$/;"	m	struct:si_arg_t
+consts	bin-file.h	/^	struct si_bin_enc_dict_entry_consts_t *consts;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::si_bin_enc_dict_entry_consts_t
+d_flags	bin-file.h	/^	Elf32_Word d_flags;$/;"	m	struct:si_bin_enc_dict_entry_header_t
+d_machine	bin-file.h	/^	Elf32_Word d_machine;$/;"	m	struct:si_bin_enc_dict_entry_header_t
+d_offset	bin-file.h	/^	Elf32_Off d_offset;  \/* Offset for encoding data (PT_NOTE + PT_LOAD segments) *\/$/;"	m	struct:si_bin_enc_dict_entry_header_t
+d_size	bin-file.h	/^	Elf32_Word d_size;  \/* Size of encoding data (PT_NOTE + PT_LOAD segments) *\/$/;"	m	struct:si_bin_enc_dict_entry_header_t
+d_type	bin-file.h	/^	Elf32_Word d_type;$/;"	m	struct:si_bin_enc_dict_entry_header_t
+da	asm.h	/^        unsigned int da        : 1;   \/*     14  *\/$/;"	m	struct:si_fmt_mimg_t
+data0	asm.h	/^        unsigned int data0    : 8;   \/* [47:40] *\/$/;"	m	struct:si_fmt_ds_t
+data1	asm.h	/^        unsigned int data1    : 8;   \/* [55:48] *\/$/;"	m	struct:si_fmt_ds_t
+dataClass	bin-file.h	/^	unsigned int dataClass;$/;"	m	struct:si_bin_enc_user_element_t
+data_type	arg.h	/^	enum si_arg_data_type_t data_type;$/;"	m	struct:si_arg_pointer_t	typeref:enum:si_arg_pointer_t::si_arg_data_type_t
+data_type	arg.h	/^	enum si_arg_data_type_t data_type;$/;"	m	struct:si_arg_value_t	typeref:enum:si_arg_value_t::si_arg_data_type_t
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+descsz	bin-file.c	/^	Elf32_Word descsz;  \/* Size of the data payload *\/$/;"	m	struct:pt_note_header_t	file:
+device_ptr	arg.h	/^	unsigned int device_ptr;$/;"	m	struct:si_arg_pointer_t
+device_ptr	input.h	/^	unsigned int device_ptr; $/;"	m	struct:si_input_t
+dfmt	asm.h	/^        unsigned int dfmt     : 4;   \/* [22:19] *\/$/;"	m	struct:si_fmt_mtbuf_t
+dimension	arg.h	/^	int dimension;  \/* 2 or 3 *\/$/;"	m	struct:si_arg_image_t
+dmask	asm.h	/^        unsigned int dmask     : 4;   \/*  [11:8] *\/$/;"	m	struct:si_fmt_mimg_t
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+done	asm.h	/^        unsigned int done     : 1;   \/*     11  *\/$/;"	m	struct:si_fmt_exp_t
+ds	asm.h	/^	struct si_fmt_ds_t ds;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_ds_t
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+elf_file	bin-file.h	/^	struct elf_file_t *elf_file;$/;"	m	struct:si_bin_file_t	typeref:struct:si_bin_file_t::elf_file_t
+en	asm.h	/^        unsigned int en       : 4;   \/*   [3:0] *\/$/;"	m	struct:si_fmt_exp_t
+enc	asm.h	/^        unsigned int enc       : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_mimg_t
+enc	asm.h	/^        unsigned int enc       : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_mubuf_t
+enc	asm.h	/^        unsigned int enc      : 1;   \/*     31  *\/$/;"	m	struct:si_fmt_vop2_t
+enc	asm.h	/^        unsigned int enc      : 2;  \/* [31:30] *\/$/;"	m	struct:si_fmt_sop2_t
+enc	asm.h	/^        unsigned int enc      : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_ds_t
+enc	asm.h	/^        unsigned int enc      : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_exp_t
+enc	asm.h	/^        unsigned int enc      : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_mtbuf_t
+enc	asm.h	/^        unsigned int enc      : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_vintrp_t
+enc	asm.h	/^        unsigned int enc      : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_vop3a_t
+enc	asm.h	/^        unsigned int enc      : 6;   \/* [31:26] *\/$/;"	m	struct:si_fmt_vop3b_t
+enc	asm.h	/^        unsigned int enc      : 7;   \/* [31:25] *\/$/;"	m	struct:si_fmt_vop1_t
+enc	asm.h	/^        unsigned int enc      : 7;   \/* [31:25] *\/$/;"	m	struct:si_fmt_vopc_t
+enc	asm.h	/^        unsigned int enc      : 9;  \/* [31:23] *\/$/;"	m	struct:si_fmt_sop1_t
+enc	asm.h	/^        unsigned int enc      : 9;  \/* [31:23] *\/$/;"	m	struct:si_fmt_sopc_t
+enc	asm.h	/^        unsigned int enc    : 4;   \/* [31:28] *\/$/;"	m	struct:si_fmt_sopk_t
+enc	asm.h	/^        unsigned int enc    : 5;   \/* [31:27] *\/$/;"	m	struct:si_fmt_smrd_t
+enc	asm.h	/^        unsigned int enc    : 9;   \/* [31:23] *\/$/;"	m	struct:si_fmt_sopp_t
+enc_dict	bin-file.h	/^	struct list_t *enc_dict;$/;"	m	struct:si_bin_file_t	typeref:struct:si_bin_file_t::list_t
+enc_dict_entry_southern_islands	bin-file.h	/^	struct si_bin_enc_dict_entry_t *enc_dict_entry_southern_islands;$/;"	m	struct:si_bin_file_t	typeref:struct:si_bin_file_t::si_bin_enc_dict_entry_t
+enc_dict_machine_map	bin-file.c	/^static struct str_map_t enc_dict_machine_map =$/;"	v	typeref:struct:str_map_t	file:
+excp_en	bin-file.h	/^	unsigned int excp_en 		: 7;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+excp_en_msb	bin-file.h	/^	unsigned int excp_en_msb 	: 2;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exp	asm.h	/^	struct si_fmt_exp_t exp;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_exp_t
+flags	asm.h	/^	enum si_inst_flag_t flags;  \/* Flag bitmap *\/$/;"	m	struct:si_inst_info_t	typeref:enum:si_inst_info_t::si_inst_flag_t
+float_consts	bin-file.h	/^	float float_consts[256][4];$/;"	m	struct:si_bin_enc_dict_entry_consts_t
+fmt	asm.h	/^	enum si_fmt_enum fmt;  \/* Word formats *\/$/;"	m	struct:si_inst_info_t	typeref:enum:si_inst_info_t::si_fmt_enum
+fmt_str	asm.h	/^	char *fmt_str;$/;"	m	struct:si_inst_info_t
+gds	asm.h	/^        unsigned int gds      : 1;   \/*     17  *\/$/;"	m	struct:si_fmt_ds_t
+glc	asm.h	/^        unsigned int glc       : 1;   \/*     13  *\/$/;"	m	struct:si_fmt_mimg_t
+glc	asm.h	/^        unsigned int glc       : 1;   \/*     14  *\/$/;"	m	struct:si_fmt_mubuf_t
+glc	asm.h	/^        unsigned int glc      : 1;   \/*     14  *\/$/;"	m	struct:si_fmt_mtbuf_t
+header	bin-file.h	/^	struct si_bin_enc_dict_entry_header_t *header;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::si_bin_enc_dict_entry_header_t
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+id	arg.h	/^	int id;$/;"	m	struct:si_arg_sampler_t
+id	bin-file.h	/^	Elf32_Word id;  \/* UAV number *\/$/;"	m	struct:pt_note_uav_entry_t
+idxen	asm.h	/^        unsigned int idxen     : 1;   \/*     13  *\/$/;"	m	struct:si_fmt_mubuf_t
+idxen	asm.h	/^        unsigned int idxen    : 1;   \/*     13  *\/$/;"	m	struct:si_fmt_mtbuf_t
+image	arg.h	/^		struct si_arg_image_t image;$/;"	m	union:si_arg_t::__anon1	typeref:struct:si_arg_t::__anon1::si_arg_image_t
+imm	asm.h	/^        unsigned int imm    : 1;   \/*      8  *\/$/;"	m	struct:si_fmt_smrd_t
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+index	bin-file.h	/^	Elf32_Word index;  \/* Constant buffer identifier *\/$/;"	m	struct:pt_note_constant_buffer_mask_t
+info	asm.h	/^	struct si_inst_info_t *info;  \/* Pointer to 'amd_inst_info' table *\/$/;"	m	struct:si_inst_t	typeref:struct:si_inst_t::si_inst_info_t
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+inst	asm.h	/^	enum si_inst_opcode_t inst;$/;"	m	struct:si_inst_info_t	typeref:enum:si_inst_info_t::si_inst_opcode_t
+install_sh	Makefile	/^install_sh = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+int_consts	bin-file.h	/^	unsigned int int_consts[32][4];$/;"	m	struct:si_bin_enc_dict_entry_consts_t
+is_token	asm.c	/^static int is_token(char *fmt_str, char *token_str, int *token_len)$/;"	f	file:
+lds	asm.h	/^        unsigned int lds       : 1;   \/*     16  *\/$/;"	m	struct:si_fmt_mubuf_t
+lds_size	bin-file.h	/^	unsigned int lds_size 		: 9;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+lds_size_used	bin-file.h	/^	int lds_size_used;$/;"	m	struct:si_bin_enc_dict_entry_t
+lib_LIBRARIES	Makefile	/^lib_LIBRARIES = libasm.a$/;"	m
+libasm_a_AR	Makefile	/^libasm_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libasm_a_LIBADD	Makefile	/^libasm_a_LIBADD =$/;"	m
+libasm_a_OBJECTS	Makefile	/^libasm_a_OBJECTS = $(am_libasm_a_OBJECTS)$/;"	m
+libasm_a_SOURCES	Makefile	/^libasm_a_SOURCES = \\$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+line_dump	asm.c	/^void line_dump(char *inst_str, unsigned int rel_addr, void *buf, char *line, int line_size, int inst_size)$/;"	f
+lit_cnst	asm.h	/^        unsigned int lit_cnst : 32;  \/* [63:32] *\/$/;"	m	struct:si_fmt_vop1_t
+lit_cnst	asm.h	/^        unsigned int lit_cnst : 32;  \/* [63:32] *\/$/;"	m	struct:si_fmt_vop2_t
+lit_cnst	asm.h	/^        unsigned int lit_cnst : 32;  \/* [63:32] *\/$/;"	m	struct:si_fmt_vopc_t
+lit_cnst	asm.h	/^        unsigned int lit_cnst : 32; \/* [63:32] *\/$/;"	m	struct:si_fmt_sop1_t
+lit_cnst	asm.h	/^        unsigned int lit_cnst : 32; \/* [63:32] *\/$/;"	m	struct:si_fmt_sop2_t
+lit_cnst	asm.h	/^        unsigned int lit_cnst : 32; \/* [63:32] *\/$/;"	m	struct:si_fmt_sopc_t
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+location	arg.h	/^	unsigned int location;$/;"	m	struct:si_arg_sampler_t
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+lwe	asm.h	/^        unsigned int lwe       : 1;   \/*     17  *\/$/;"	m	struct:si_fmt_mimg_t
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+micro_inst	asm.h	/^	union si_inst_microcode_t micro_inst;$/;"	m	struct:si_inst_t	typeref:union:si_inst_t::si_inst_microcode_t
+mimg	asm.h	/^	struct si_fmt_mimg_t mimg;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_mimg_t
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mtbuf	asm.h	/^	struct si_fmt_mtbuf_t mtbuf;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_mtbuf_t
+mubuf	asm.h	/^	struct si_fmt_mubuf_t mubuf;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_mubuf_t
+name	arg.h	/^	char *name;$/;"	m	struct:si_arg_t
+name	asm.h	/^	char *name;$/;"	m	struct:si_inst_info_t
+name	bin-file.c	/^	char name[8];  \/* Note header string. Must be "ATI CAL" *\/$/;"	m	struct:pt_note_header_t	file:
+namesz	bin-file.c	/^	Elf32_Word namesz;  \/* Size of the name field. Must be 8 *\/$/;"	m	struct:pt_note_header_t	file:
+neg	asm.h	/^        unsigned int neg      : 3;   \/* [63:60] *\/$/;"	m	struct:si_fmt_vop3a_t
+neg	asm.h	/^        unsigned int neg      : 3;   \/* [63:60] *\/$/;"	m	struct:si_fmt_vop3b_t
+nfmt	asm.h	/^        unsigned int nfmt     : 3;   \/* [25:23] *\/$/;"	m	struct:si_fmt_mtbuf_t
+num_elems	arg.h	/^	int num_elems;$/;"	m	struct:si_arg_pointer_t
+num_elems	arg.h	/^	int num_elems;$/;"	m	struct:si_arg_value_t
+num_elems	input.h	/^	int num_elems;$/;"	m	struct:si_input_t
+num_sgpr_used	bin-file.h	/^	int num_sgpr_used;$/;"	m	struct:si_bin_enc_dict_entry_t
+num_vgpr_used	bin-file.h	/^	int num_vgpr_used;$/;"	m	struct:si_bin_enc_dict_entry_t
+offen	asm.h	/^        unsigned int offen     : 1;   \/*     12  *\/$/;"	m	struct:si_fmt_mubuf_t
+offen	asm.h	/^        unsigned int offen    : 1;   \/*     12  *\/$/;"	m	struct:si_fmt_mtbuf_t
+offset	asm.h	/^        unsigned int offset    : 12;  \/*  [11:0] *\/$/;"	m	struct:si_fmt_mubuf_t
+offset	asm.h	/^        unsigned int offset   : 12;  \/*  [11:0] *\/$/;"	m	struct:si_fmt_mtbuf_t
+offset	asm.h	/^        unsigned int offset : 8;   \/*   [7:0] *\/$/;"	m	struct:si_fmt_smrd_t
+offset	bin-file.h	/^	Elf32_Word offset;  \/* Offsets in bytes to start of data *\/$/;"	m	struct:pt_note_data_segment_desc_t
+offset0	asm.h	/^        unsigned int offset0  : 8;   \/*   [7:0] *\/$/;"	m	struct:si_fmt_ds_t
+offset1	asm.h	/^        unsigned int offset1  : 8;   \/*  [15:8] *\/$/;"	m	struct:si_fmt_ds_t
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+omod	asm.h	/^        unsigned int omod     : 2;   \/* [59:58] *\/$/;"	m	struct:si_fmt_vop3a_t
+omod	asm.h	/^        unsigned int omod     : 2;   \/* [59:58] *\/$/;"	m	struct:si_fmt_vop3b_t
+op	asm.h	/^        unsigned int op        : 7;   \/* [24:18] *\/$/;"	m	struct:si_fmt_mimg_t
+op	asm.h	/^        unsigned int op        : 7;   \/* [24:18] *\/$/;"	m	struct:si_fmt_mubuf_t
+op	asm.h	/^        unsigned int op       : 2;   \/* [17:16] *\/$/;"	m	struct:si_fmt_vintrp_t
+op	asm.h	/^        unsigned int op       : 3;   \/* [18:16] *\/$/;"	m	struct:si_fmt_mtbuf_t
+op	asm.h	/^        unsigned int op       : 6;   \/* [30:25] *\/$/;"	m	struct:si_fmt_vop2_t
+op	asm.h	/^        unsigned int op       : 7;  \/* [22:16] *\/$/;"	m	struct:si_fmt_sopc_t
+op	asm.h	/^        unsigned int op       : 7;  \/* [29:23] *\/$/;"	m	struct:si_fmt_sop2_t
+op	asm.h	/^        unsigned int op       : 8;   \/*  [16:9] *\/$/;"	m	struct:si_fmt_vop1_t
+op	asm.h	/^        unsigned int op       : 8;   \/* [24:17] *\/$/;"	m	struct:si_fmt_vopc_t
+op	asm.h	/^        unsigned int op       : 8;   \/* [25:18] *\/$/;"	m	struct:si_fmt_ds_t
+op	asm.h	/^        unsigned int op       : 8;  \/*  [15:8] *\/$/;"	m	struct:si_fmt_sop1_t
+op	asm.h	/^        unsigned int op       : 9;   \/* [25:17] *\/$/;"	m	struct:si_fmt_vop3a_t
+op	asm.h	/^        unsigned int op       : 9;   \/* [25:17] *\/$/;"	m	struct:si_fmt_vop3b_t
+op	asm.h	/^        unsigned int op     : 5;   \/* [26:22] *\/$/;"	m	struct:si_fmt_smrd_t
+op	asm.h	/^        unsigned int op     : 5;   \/* [27:23] *\/$/;"	m	struct:si_fmt_sopk_t
+op	asm.h	/^        unsigned int op     : 7;   \/* [22:16] *\/$/;"	m	struct:si_fmt_sopp_t
+opcode	asm.h	/^	int opcode;  \/* Operation code *\/$/;"	m	struct:si_inst_info_t
+operand_dump	asm.c	/^void operand_dump(char *str, int operand)$/;"	f
+operand_dump_exp	asm.c	/^void operand_dump_exp(char *str, int operand)$/;"	f
+operand_dump_scalar	asm.c	/^void operand_dump_scalar(char *str, int operand)$/;"	f
+operand_dump_series	asm.c	/^void operand_dump_series(char *str, int operand, int operand_end)$/;"	f
+operand_dump_series_scalar	asm.c	/^void operand_dump_series_scalar(char *str, int operand, int operand_end)$/;"	f
+operand_dump_series_vector	asm.c	/^void operand_dump_series_vector(char *str, int operand, int operand_end)$/;"	f
+operand_dump_vector	asm.c	/^void operand_dump_vector(char *str, int operand)$/;"	f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/multi2sim$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/multi2sim$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/multi2sim$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/multi2sim$/;"	m
+pointer	arg.h	/^		struct si_arg_pointer_t pointer;$/;"	m	union:si_arg_t::__anon1	typeref:struct:si_arg_t::__anon1::si_arg_pointer_t
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prog_info_entry_map	bin-file.c	/^static struct str_map_t prog_info_entry_map = {$/;"	v	typeref:struct:str_map_t	file:
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+pt_load_buffer	bin-file.h	/^	struct elf_buffer_t pt_load_buffer;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::elf_buffer_t
+pt_note_buffer	bin-file.h	/^	struct elf_buffer_t pt_note_buffer;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::elf_buffer_t
+pt_note_constant_buffer_mask_t	bin-file.h	/^struct pt_note_constant_buffer_mask_t$/;"	s
+pt_note_data_segment_desc_t	bin-file.h	/^struct pt_note_data_segment_desc_t$/;"	s
+pt_note_header_t	bin-file.c	/^struct pt_note_header_t$/;"	s	file:
+pt_note_prog_info_entry_t	bin-file.h	/^struct pt_note_prog_info_entry_t$/;"	s
+pt_note_type_map	bin-file.c	/^struct str_map_t pt_note_type_map = {$/;"	v	typeref:struct:str_map_t
+pt_note_uav_entry_t	bin-file.h	/^struct pt_note_uav_entry_t$/;"	s
+r128	asm.h	/^        unsigned int r128      : 1;   \/*     15  *\/$/;"	m	struct:si_fmt_mimg_t
+reserved	asm.h	/^        unsigned int reserved : 13;  \/* [25:13] *\/$/;"	m	struct:si_fmt_exp_t
+reserved	asm.h	/^        unsigned int reserved : 1;   \/*     16  *\/$/;"	m	struct:si_fmt_ds_t
+reserved	asm.h	/^        unsigned int reserved : 1;   \/*     53  *\/$/;"	m	struct:si_fmt_mtbuf_t
+reserved	asm.h	/^        unsigned int reserved : 2;   \/* [16:15] *\/$/;"	m	struct:si_fmt_vop3b_t
+reserved	asm.h	/^        unsigned int reserved : 5;   \/* [16:12] *\/$/;"	m	struct:si_fmt_vop3a_t
+reserved0	asm.h	/^        unsigned int reserved0 : 1;   \/*     17  *\/$/;"	m	struct:si_fmt_mubuf_t
+reserved0	asm.h	/^        unsigned int reserved0 : 8;   \/*   [7:0] *\/$/;"	m	struct:si_fmt_mimg_t
+reserved1	asm.h	/^        unsigned int reserved1  : 6;   \/* [63:58] *\/$/;"	m	struct:si_fmt_mimg_t
+reserved1	asm.h	/^        unsigned int reserved1 : 1;   \/*     25  *\/$/;"	m	struct:si_fmt_mubuf_t
+reserved2	asm.h	/^        unsigned int reserved2 : 1;   \/*     53  *\/$/;"	m	struct:si_fmt_mubuf_t
+sampler	arg.h	/^		struct si_arg_sampler_t sampler;$/;"	m	union:si_arg_t::__anon1	typeref:struct:si_arg_t::__anon1::si_arg_sampler_t
+sbase	asm.h	/^        unsigned int sbase  : 6;   \/*  [14:9] *\/$/;"	m	struct:si_fmt_smrd_t
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scope	arg.h	/^	enum si_arg_scope_t scope;$/;"	m	struct:si_arg_pointer_t	typeref:enum:si_arg_pointer_t::si_arg_scope_t
+scrach_en	bin-file.h	/^	unsigned int scrach_en 		: 1;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+sdst	asm.h	/^        unsigned int sdst     : 7;   \/*  [14:8] *\/$/;"	m	struct:si_fmt_vop3b_t
+sdst	asm.h	/^        unsigned int sdst     : 7;  \/* [22:16] *\/$/;"	m	struct:si_fmt_sop1_t
+sdst	asm.h	/^        unsigned int sdst     : 7;  \/* [22:16] *\/$/;"	m	struct:si_fmt_sop2_t
+sdst	asm.h	/^        unsigned int sdst   : 7;   \/* [21:15] *\/$/;"	m	struct:si_fmt_smrd_t
+sdst	asm.h	/^        unsigned int sdst   : 7;   \/* [22:16] *\/$/;"	m	struct:si_fmt_sopk_t
+sec_data_buffer	bin-file.h	/^	struct elf_buffer_t sec_data_buffer;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::elf_buffer_t
+sec_strtab_buffer	bin-file.h	/^	struct elf_buffer_t sec_strtab_buffer;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::elf_buffer_t
+sec_symtab_buffer	bin-file.h	/^	struct elf_buffer_t sec_symtab_buffer;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::elf_buffer_t
+sec_text_buffer	bin-file.h	/^	struct elf_buffer_t sec_text_buffer;$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::elf_buffer_t
+set	arg.h	/^	int set;  \/* Set to true when it is assigned *\/$/;"	m	struct:si_arg_t
+set	input.h	/^	int set;  \/* Set to true when it is assigned *\/$/;"	m	struct:si_input_t
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+si_arg_access_type_invalid	arg.h	/^	si_arg_access_type_invalid = 0,$/;"	e	enum:si_arg_access_type_t
+si_arg_access_type_map	arg.c	/^struct str_map_t si_arg_access_type_map =$/;"	v	typeref:struct:str_map_t
+si_arg_access_type_t	arg.h	/^enum si_arg_access_type_t$/;"	g
+si_arg_create	arg.c	/^struct si_arg_t *si_arg_create(enum si_arg_type_t type,$/;"	f
+si_arg_data_type_invalid	arg.h	/^	si_arg_data_type_invalid = 0,$/;"	e	enum:si_arg_data_type_t
+si_arg_data_type_map	arg.c	/^struct str_map_t si_arg_data_type_map =$/;"	v	typeref:struct:str_map_t
+si_arg_data_type_t	arg.h	/^enum si_arg_data_type_t$/;"	g
+si_arg_dimension_map	arg.c	/^struct str_map_t si_arg_dimension_map =$/;"	v	typeref:struct:str_map_t
+si_arg_double	arg.h	/^	si_arg_double,$/;"	e	enum:si_arg_data_type_t
+si_arg_emu_constant	arg.h	/^	si_arg_emu_constant,$/;"	e	enum:si_arg_scope_t
+si_arg_emu_gds	arg.h	/^	si_arg_emu_gds,$/;"	e	enum:si_arg_scope_t
+si_arg_emu_local	arg.h	/^	si_arg_emu_local,$/;"	e	enum:si_arg_scope_t
+si_arg_emu_private	arg.h	/^	si_arg_emu_private,$/;"	e	enum:si_arg_scope_t
+si_arg_event	arg.h	/^	si_arg_event,$/;"	e	enum:si_arg_data_type_t
+si_arg_float	arg.h	/^	si_arg_float,$/;"	e	enum:si_arg_data_type_t
+si_arg_free	arg.c	/^void si_arg_free(struct si_arg_t *arg)$/;"	f
+si_arg_get_data_size	arg.c	/^int si_arg_get_data_size(enum si_arg_data_type_t data_type)$/;"	f
+si_arg_global	arg.h	/^	si_arg_global,$/;"	e	enum:si_arg_scope_t
+si_arg_hw_constant	arg.h	/^	si_arg_hw_constant,$/;"	e	enum:si_arg_scope_t
+si_arg_hw_gds	arg.h	/^	si_arg_hw_gds$/;"	e	enum:si_arg_scope_t
+si_arg_hw_local	arg.h	/^	si_arg_hw_local,$/;"	e	enum:si_arg_scope_t
+si_arg_hw_private	arg.h	/^	si_arg_hw_private,$/;"	e	enum:si_arg_scope_t
+si_arg_i1	arg.h	/^	si_arg_i1,$/;"	e	enum:si_arg_data_type_t
+si_arg_i16	arg.h	/^	si_arg_i16,$/;"	e	enum:si_arg_data_type_t
+si_arg_i32	arg.h	/^	si_arg_i32,$/;"	e	enum:si_arg_data_type_t
+si_arg_i64	arg.h	/^	si_arg_i64,$/;"	e	enum:si_arg_data_type_t
+si_arg_i8	arg.h	/^	si_arg_i8,$/;"	e	enum:si_arg_data_type_t
+si_arg_image	arg.h	/^	si_arg_image,$/;"	e	enum:si_arg_type_t
+si_arg_image_t	arg.h	/^struct si_arg_image_t$/;"	s
+si_arg_name_set	arg.c	/^void si_arg_name_set(struct si_arg_t *arg, char *name)$/;"	f
+si_arg_opaque	arg.h	/^	si_arg_opaque$/;"	e	enum:si_arg_data_type_t
+si_arg_pointer	arg.h	/^	si_arg_pointer,$/;"	e	enum:si_arg_type_t
+si_arg_pointer_t	arg.h	/^struct si_arg_pointer_t$/;"	s
+si_arg_read_only	arg.h	/^	si_arg_read_only,$/;"	e	enum:si_arg_access_type_t
+si_arg_read_write	arg.h	/^	si_arg_read_write$/;"	e	enum:si_arg_access_type_t
+si_arg_reflection_map	arg.c	/^struct str_map_t si_arg_reflection_map =$/;"	v	typeref:struct:str_map_t
+si_arg_sampler	arg.h	/^	si_arg_sampler$/;"	e	enum:si_arg_type_t
+si_arg_sampler_t	arg.h	/^struct si_arg_sampler_t$/;"	s
+si_arg_scope_invalid	arg.h	/^	si_arg_scope_invalid = 0,$/;"	e	enum:si_arg_scope_t
+si_arg_scope_map	arg.c	/^struct str_map_t si_arg_scope_map =$/;"	v	typeref:struct:str_map_t
+si_arg_scope_t	arg.h	/^enum si_arg_scope_t$/;"	g
+si_arg_struct	arg.h	/^	si_arg_struct,$/;"	e	enum:si_arg_data_type_t
+si_arg_t	arg.h	/^struct si_arg_t$/;"	s
+si_arg_type_invalid	arg.h	/^	si_arg_type_invalid = 0,$/;"	e	enum:si_arg_type_t
+si_arg_type_t	arg.h	/^enum si_arg_type_t$/;"	g
+si_arg_u1	arg.h	/^	si_arg_u1,$/;"	e	enum:si_arg_data_type_t
+si_arg_u16	arg.h	/^	si_arg_u16,$/;"	e	enum:si_arg_data_type_t
+si_arg_u32	arg.h	/^	si_arg_u32,$/;"	e	enum:si_arg_data_type_t
+si_arg_u64	arg.h	/^	si_arg_u64,$/;"	e	enum:si_arg_data_type_t
+si_arg_u8	arg.h	/^	si_arg_u8,$/;"	e	enum:si_arg_data_type_t
+si_arg_uav	arg.h	/^	si_arg_uav,$/;"	e	enum:si_arg_scope_t
+si_arg_union	arg.h	/^	si_arg_union,$/;"	e	enum:si_arg_data_type_t
+si_arg_value	arg.h	/^	si_arg_value,$/;"	e	enum:si_arg_type_t
+si_arg_value_t	arg.h	/^struct si_arg_value_t$/;"	s
+si_arg_write_only	arg.h	/^	si_arg_write_only,$/;"	e	enum:si_arg_access_type_t
+si_bin_compute_pgm_rsrc2_create	bin-file.c	/^struct si_bin_compute_pgm_rsrc2_t *si_bin_compute_pgm_rsrc2_create()$/;"	f
+si_bin_compute_pgm_rsrc2_free	bin-file.c	/^void si_bin_compute_pgm_rsrc2_free(struct si_bin_compute_pgm_rsrc2_t *pgm_rsrc2)$/;"	f
+si_bin_compute_pgm_rsrc2_t	bin-file.h	/^struct si_bin_compute_pgm_rsrc2_t$/;"	s
+si_bin_enc_dict_entry_consts_t	bin-file.h	/^struct si_bin_enc_dict_entry_consts_t$/;"	s
+si_bin_enc_dict_entry_header_t	bin-file.h	/^struct si_bin_enc_dict_entry_header_t$/;"	s
+si_bin_enc_dict_entry_t	bin-file.h	/^struct si_bin_enc_dict_entry_t$/;"	s
+si_bin_enc_user_element_create	bin-file.c	/^struct si_bin_enc_user_element_t *si_bin_enc_user_element_create()$/;"	f
+si_bin_enc_user_element_free	bin-file.c	/^void si_bin_enc_user_element_free(struct si_bin_enc_user_element_t *user_elem)$/;"	f
+si_bin_enc_user_element_t	bin-file.h	/^struct si_bin_enc_user_element_t$/;"	s
+si_bin_file_create	bin-file.c	/^struct si_bin_file_t *si_bin_file_create(void *ptr, int size, char *name)$/;"	f
+si_bin_file_free	bin-file.c	/^void si_bin_file_free(struct si_bin_file_t *bin_file)$/;"	f
+si_bin_file_read_enc_dict	bin-file.c	/^static void si_bin_file_read_enc_dict(struct si_bin_file_t *bin_file)$/;"	f	file:
+si_bin_file_read_note_header	bin-file.c	/^static void si_bin_file_read_note_header(struct si_bin_file_t *bin_file, struct si_bin_enc_dict_entry_t *enc_dict_entry)$/;"	f	file:
+si_bin_file_read_notes	bin-file.c	/^static void si_bin_file_read_notes(struct si_bin_file_t *bin_file, struct si_bin_enc_dict_entry_t *enc_dict_entry)$/;"	f	file:
+si_bin_file_read_sections	bin-file.c	/^static void si_bin_file_read_sections(struct si_bin_file_t *bin_file)$/;"	f	file:
+si_bin_file_read_segments	bin-file.c	/^static void si_bin_file_read_segments(struct si_bin_file_t *bin_file)$/;"	f	file:
+si_bin_file_t	bin-file.h	/^struct si_bin_file_t$/;"	s
+si_bin_user_data_class	bin-file.c	/^struct str_map_t si_bin_user_data_class = $/;"	v	typeref:struct:str_map_t
+si_disasm	asm.c	/^void si_disasm(char *path)$/;"	f
+si_disasm_buffer	asm.c	/^void si_disasm_buffer(struct elf_buffer_t *buffer, FILE *f)$/;"	f
+si_disasm_done	asm.c	/^void si_disasm_done()$/;"	f
+si_disasm_init	asm.c	/^void si_disasm_init()$/;"	f
+si_fmt_ds_t	asm.h	/^struct si_fmt_ds_t$/;"	s
+si_fmt_dump_func_t	asm.h	/^typedef void (*si_fmt_dump_func_t)(void *buf, FILE *);$/;"	t
+si_fmt_enum	asm.h	/^enum si_fmt_enum$/;"	g
+si_fmt_exp_t	asm.h	/^struct si_fmt_exp_t$/;"	s
+si_fmt_mimg_t	asm.h	/^struct si_fmt_mimg_t$/;"	s
+si_fmt_mtbuf_t	asm.h	/^struct si_fmt_mtbuf_t$/;"	s
+si_fmt_mubuf_t	asm.h	/^struct si_fmt_mubuf_t$/;"	s
+si_fmt_smrd_t	asm.h	/^struct si_fmt_smrd_t $/;"	s
+si_fmt_sop1_t	asm.h	/^struct si_fmt_sop1_t$/;"	s
+si_fmt_sop2_t	asm.h	/^struct si_fmt_sop2_t$/;"	s
+si_fmt_sopc_t	asm.h	/^struct si_fmt_sopc_t$/;"	s
+si_fmt_sopk_t	asm.h	/^struct si_fmt_sopk_t$/;"	s
+si_fmt_sopp_t	asm.h	/^struct si_fmt_sopp_t$/;"	s
+si_fmt_vintrp_t	asm.h	/^struct si_fmt_vintrp_t$/;"	s
+si_fmt_vop1_t	asm.h	/^struct si_fmt_vop1_t$/;"	s
+si_fmt_vop2_t	asm.h	/^struct si_fmt_vop2_t$/;"	s
+si_fmt_vop3a_t	asm.h	/^struct si_fmt_vop3a_t$/;"	s
+si_fmt_vop3b_t	asm.h	/^struct si_fmt_vop3b_t$/;"	s
+si_fmt_vopc_t	asm.h	/^struct si_fmt_vopc_t$/;"	s
+si_input_byte	input.h	/^	si_input_byte,$/;"	e	enum:si_input_data_type_t
+si_input_create	input.c	/^struct si_input_t *si_input_create()$/;"	f
+si_input_data_type_invalid	input.h	/^	si_input_data_type_invalid = 0,$/;"	e	enum:si_input_data_type_t
+si_input_data_type_t	input.h	/^enum si_input_data_type_t$/;"	g
+si_input_double	input.h	/^	si_input_double,$/;"	e	enum:si_input_data_type_t
+si_input_fixed	input.h	/^	si_input_fixed,$/;"	e	enum:si_input_data_type_t
+si_input_float	input.h	/^	si_input_float,$/;"	e	enum:si_input_data_type_t
+si_input_free	input.c	/^void si_input_free(struct si_input_t *input)$/;"	f
+si_input_get_data_size	input.c	/^int si_input_get_data_size(enum si_input_data_type_t data_type)$/;"	f
+si_input_get_type	input.c	/^unsigned int si_input_get_type(unsigned int gl_data_type)$/;"	f
+si_input_hfloat	input.h	/^	si_input_hfloat,$/;"	e	enum:si_input_data_type_t
+si_input_int	input.h	/^	si_input_int,$/;"	e	enum:si_input_data_type_t
+si_input_int_2_10_10_10_rev	input.h	/^	si_input_int_2_10_10_10_rev,$/;"	e	enum:si_input_data_type_t
+si_input_set_usage_index	input.c	/^void si_input_set_usage_index(struct si_input_t *input, unsigned int usage_index)$/;"	f
+si_input_short	input.h	/^	si_input_short,$/;"	e	enum:si_input_data_type_t
+si_input_t	input.h	/^struct si_input_t$/;"	s
+si_input_ubyte	input.h	/^	si_input_ubyte,$/;"	e	enum:si_input_data_type_t
+si_input_uint	input.h	/^	si_input_uint,$/;"	e	enum:si_input_data_type_t
+si_input_uint_2_10_10_10_rev	input.h	/^	si_input_uint_2_10_10_10_rev$/;"	e	enum:si_input_data_type_t
+si_input_ushort	input.h	/^	si_input_ushort,$/;"	e	enum:si_input_data_type_t
+si_inst_64_SSRC_dump	asm.c	/^void si_inst_64_SSRC_dump(struct si_inst_t *inst, unsigned int ssrc, $/;"	f
+si_inst_DUG_dump	asm.c	/^void si_inst_DUG_dump(struct si_inst_t *inst, char *operand_str, $/;"	f
+si_inst_MADDR_dump	asm.c	/^void si_inst_MADDR_dump(struct si_inst_t *inst, char *operand_str, $/;"	f
+si_inst_OP16_map	asm.c	/^struct str_map_t si_inst_OP16_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_OP8_map	asm.c	/^struct str_map_t si_inst_OP8_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_SERIES_VDATA_dump	asm.c	/^void si_inst_SERIES_VDATA_dump(unsigned int vdata, int op, char *operand_str, $/;"	f
+si_inst_SSRC_dump	asm.c	/^void si_inst_SSRC_dump(struct si_inst_t *inst, unsigned int ssrc, $/;"	f
+si_inst_VOP3_64_SRC_dump	asm.c	/^void si_inst_VOP3_64_SRC_dump(struct si_inst_t *inst, unsigned int src, int neg, char *operand_str, char **inst_str, int str_size)$/;"	f
+si_inst_VOP3_SRC_dump	asm.c	/^void si_inst_VOP3_SRC_dump(struct si_inst_t *inst, unsigned int src, int neg, $/;"	f
+si_inst_buf_data_format_10_10_10_2	asm.h	/^	si_inst_buf_data_format_10_10_10_2 = 8,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_10_11_11	asm.h	/^	si_inst_buf_data_format_10_11_11 = 6,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_11_10_10	asm.h	/^	si_inst_buf_data_format_11_10_10 = 7,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_16	asm.h	/^	si_inst_buf_data_format_16 = 2,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_16_16	asm.h	/^	si_inst_buf_data_format_16_16 = 5,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_16_16_16_16	asm.h	/^	si_inst_buf_data_format_16_16_16_16 = 12,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_2_10_10_10	asm.h	/^	si_inst_buf_data_format_2_10_10_10 = 9,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_32	asm.h	/^	si_inst_buf_data_format_32 = 4,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_32_32	asm.h	/^	si_inst_buf_data_format_32_32 = 11,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_32_32_32	asm.h	/^	si_inst_buf_data_format_32_32_32 = 13,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_32_32_32_32	asm.h	/^	si_inst_buf_data_format_32_32_32_32 = 14,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_8	asm.h	/^	si_inst_buf_data_format_8 = 1,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_8_8	asm.h	/^	si_inst_buf_data_format_8_8 = 3,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_8_8_8_8	asm.h	/^	si_inst_buf_data_format_8_8_8_8 = 10,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_invalid	asm.h	/^	si_inst_buf_data_format_invalid = 0,$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_map	asm.c	/^struct str_map_t si_inst_buf_data_format_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_buf_data_format_reserved	asm.h	/^	si_inst_buf_data_format_reserved = 15$/;"	e	enum:si_inst_buf_data_format_t
+si_inst_buf_data_format_t	asm.h	/^enum si_inst_buf_data_format_t$/;"	g
+si_inst_buf_num_format_float	asm.h	/^	si_inst_buf_num_format_float = 7,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_map	asm.c	/^struct str_map_t si_inst_buf_num_format_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_buf_num_format_reserved	asm.h	/^	si_inst_buf_num_format_reserved = 8,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_sint	asm.h	/^	si_inst_buf_num_format_sint = 5,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_snorm	asm.h	/^	si_inst_buf_num_format_snorm = 1,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_snorm_nz	asm.h	/^	si_inst_buf_num_format_snorm_nz = 6,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_srgb	asm.h	/^	si_inst_buf_num_format_srgb = 9,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_sscaled	asm.h	/^	si_inst_buf_num_format_sscaled = 3,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_t	asm.h	/^enum si_inst_buf_num_format_t$/;"	g
+si_inst_buf_num_format_ubint	asm.h	/^	si_inst_buf_num_format_ubint = 12,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_ubnorm	asm.h	/^	si_inst_buf_num_format_ubnorm = 10,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_ubnorm_nz	asm.h	/^	si_inst_buf_num_format_ubnorm_nz = 11,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_ubscaled	asm.h	/^	si_inst_buf_num_format_ubscaled = 13$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_uint	asm.h	/^	si_inst_buf_num_format_uint = 4,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_unorm	asm.h	/^	si_inst_buf_num_format_unorm = 0,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_buf_num_format_unscaled	asm.h	/^	si_inst_buf_num_format_unscaled = 2,$/;"	e	enum:si_inst_buf_num_format_t
+si_inst_category_t	asm.h	/^enum si_inst_category_t$/;"	g
+si_inst_decode	asm.c	/^int si_inst_decode(void *buf, struct si_inst_t *inst, unsigned int offset)$/;"	f
+si_inst_dump	asm.c	/^void si_inst_dump(struct si_inst_t *inst, unsigned int inst_size, $/;"	f
+si_inst_flag_t	asm.h	/^enum si_inst_flag_t$/;"	g
+si_inst_fmt_map	asm.c	/^struct str_map_t si_inst_fmt_map =$/;"	v	typeref:struct:str_map_t
+si_inst_info	asm.c	/^struct si_inst_info_t si_inst_info[SI_INST_COUNT];$/;"	v	typeref:struct:si_inst_info_t
+si_inst_info_ds	asm.c	/^static struct si_inst_info_t *si_inst_info_ds[SI_INST_INFO_DS_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_exp	asm.c	/^static struct si_inst_info_t *si_inst_info_exp[SI_INST_INFO_EXP_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_mimg	asm.c	/^static struct si_inst_info_t *si_inst_info_mimg[SI_INST_INFO_MIMG_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_mtbuf	asm.c	/^static struct si_inst_info_t *si_inst_info_mtbuf[SI_INST_INFO_MTBUF_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_mubuf	asm.c	/^static struct si_inst_info_t *si_inst_info_mubuf[SI_INST_INFO_MUBUF_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_smrd	asm.c	/^static struct si_inst_info_t *si_inst_info_smrd[SI_INST_INFO_SMRD_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_sop1	asm.c	/^static struct si_inst_info_t *si_inst_info_sop1[SI_INST_INFO_SOP1_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_sop2	asm.c	/^static struct si_inst_info_t *si_inst_info_sop2[SI_INST_INFO_SOP2_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_sopc	asm.c	/^static struct si_inst_info_t *si_inst_info_sopc[SI_INST_INFO_SOPC_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_sopk	asm.c	/^static struct si_inst_info_t *si_inst_info_sopk[SI_INST_INFO_SOPK_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_sopp	asm.c	/^static struct si_inst_info_t *si_inst_info_sopp[SI_INST_INFO_SOPP_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_t	asm.h	/^struct si_inst_info_t$/;"	s
+si_inst_info_vintrp	asm.c	/^static struct si_inst_info_t *si_inst_info_vintrp[SI_INST_INFO_VINTRP_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_vop1	asm.c	/^static struct si_inst_info_t *si_inst_info_vop1[SI_INST_INFO_VOP1_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_vop2	asm.c	/^static struct si_inst_info_t *si_inst_info_vop2[SI_INST_INFO_VOP2_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_vop3	asm.c	/^static struct si_inst_info_t *si_inst_info_vop3[SI_INST_INFO_VOP3_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_info_vopc	asm.c	/^static struct si_inst_info_t *si_inst_info_vopc[SI_INST_INFO_VOPC_MAX_VALUE + 1];$/;"	v	typeref:struct:si_inst_info_t	file:
+si_inst_microcode_t	asm.h	/^union si_inst_microcode_t$/;"	u
+si_inst_opcode_t	asm.h	/^enum si_inst_opcode_t$/;"	g
+si_inst_sdst_map	asm.c	/^struct str_map_t si_inst_sdst_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_special_reg_exec	asm.h	/^	si_inst_special_reg_exec,$/;"	e	enum:si_inst_special_reg_t
+si_inst_special_reg_invalid	asm.h	/^	si_inst_special_reg_invalid = 0,$/;"	e	enum:si_inst_special_reg_t
+si_inst_special_reg_map	asm.c	/^struct str_map_t si_inst_special_reg_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_special_reg_scc	asm.h	/^	si_inst_special_reg_scc,$/;"	e	enum:si_inst_special_reg_t
+si_inst_special_reg_t	asm.h	/^enum si_inst_special_reg_t$/;"	g
+si_inst_special_reg_tma	asm.h	/^	si_inst_special_reg_tma$/;"	e	enum:si_inst_special_reg_t
+si_inst_special_reg_vcc	asm.h	/^	si_inst_special_reg_vcc,$/;"	e	enum:si_inst_special_reg_t
+si_inst_ssrc_map	asm.c	/^struct str_map_t si_inst_ssrc_map = {$/;"	v	typeref:struct:str_map_t
+si_inst_t	asm.h	/^struct si_inst_t$/;"	s
+si_reg_t	asm.h	/^union si_reg_t$/;"	u
+simm16	asm.h	/^        unsigned int simm16 : 16;  \/*  [15:0] *\/$/;"	m	struct:si_fmt_sopk_t
+simm16	asm.h	/^        unsigned int simm16 : 16;  \/*  [15:0] *\/$/;"	m	struct:si_fmt_sopp_t
+size	arg.h	/^	int size; \/* Inferred from metadata or user calls *\/$/;"	m	struct:si_arg_t
+size	asm.h	/^	int size;  \/* Size of microcode inst (bytes) *\/$/;"	m	struct:si_inst_info_t
+size	bin-file.h	/^	Elf32_Word size;  \/* Size in bytes of data *\/$/;"	m	struct:pt_note_data_segment_desc_t
+size	bin-file.h	/^	Elf32_Word size;  \/* Size in vec4f constants of the buffer *\/$/;"	m	struct:pt_note_constant_buffer_mask_t
+size	input.h	/^	int size;$/;"	m	struct:si_input_t
+slc	asm.h	/^        unsigned int slc       : 1;   \/*     25  *\/$/;"	m	struct:si_fmt_mimg_t
+slc	asm.h	/^        unsigned int slc       : 1;   \/*     54  *\/$/;"	m	struct:si_fmt_mubuf_t
+slc	asm.h	/^        unsigned int slc      : 1;   \/*     54  *\/$/;"	m	struct:si_fmt_mtbuf_t
+smrd	asm.h	/^	struct si_fmt_smrd_t smrd;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_smrd_t
+soffset	asm.h	/^        unsigned int soffset   : 8;   \/* [63:56] *\/$/;"	m	struct:si_fmt_mubuf_t
+soffset	asm.h	/^        unsigned int soffset  : 8;   \/* [63:56] *\/$/;"	m	struct:si_fmt_mtbuf_t
+sop1	asm.h	/^	struct si_fmt_sop1_t sop1;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_sop1_t
+sop2	asm.h	/^	struct si_fmt_sop2_t sop2;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_sop2_t
+sopc	asm.h	/^	struct si_fmt_sopc_t sopc;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_sopc_t
+sopk	asm.h	/^	struct si_fmt_sopk_t sopk;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_sopk_t
+sopp	asm.h	/^	struct si_fmt_sopp_t sopp;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_sopp_t
+src0	asm.h	/^        unsigned int src0     : 9;   \/*   [8:0] *\/$/;"	m	struct:si_fmt_vop1_t
+src0	asm.h	/^        unsigned int src0     : 9;   \/*   [8:0] *\/$/;"	m	struct:si_fmt_vop2_t
+src0	asm.h	/^        unsigned int src0     : 9;   \/*   [8:0] *\/$/;"	m	struct:si_fmt_vopc_t
+src0	asm.h	/^        unsigned int src0     : 9;   \/* [40:32] *\/$/;"	m	struct:si_fmt_vop3a_t
+src0	asm.h	/^        unsigned int src0     : 9;   \/* [40:32] *\/$/;"	m	struct:si_fmt_vop3b_t
+src1	asm.h	/^        unsigned int src1     : 9;   \/* [49:41] *\/$/;"	m	struct:si_fmt_vop3a_t
+src1	asm.h	/^        unsigned int src1     : 9;   \/* [49:41] *\/$/;"	m	struct:si_fmt_vop3b_t
+src2	asm.h	/^        unsigned int src2     : 9;   \/* [57:49] *\/$/;"	m	struct:si_fmt_vop3a_t
+src2	asm.h	/^        unsigned int src2     : 9;   \/* [57:49] *\/$/;"	m	struct:si_fmt_vop3b_t
+srcdir	Makefile	/^srcdir = .$/;"	m
+srsrc	asm.h	/^        unsigned int srsrc     : 5;   \/* [52:48] *\/$/;"	m	struct:si_fmt_mimg_t
+srsrc	asm.h	/^        unsigned int srsrc     : 5;   \/* [52:48] *\/$/;"	m	struct:si_fmt_mubuf_t
+srsrc	asm.h	/^        unsigned int srsrc    : 5;   \/* [52:48] *\/$/;"	m	struct:si_fmt_mtbuf_t
+ssamp	asm.h	/^        unsigned int ssamp     : 5;   \/* [57:53] *\/$/;"	m	struct:si_fmt_mimg_t
+ssrc0	asm.h	/^        unsigned int ssrc0    : 8;  \/*   [7:0] *\/$/;"	m	struct:si_fmt_sop1_t
+ssrc0	asm.h	/^        unsigned int ssrc0    : 8;  \/*   [7:0] *\/$/;"	m	struct:si_fmt_sop2_t
+ssrc0	asm.h	/^        unsigned int ssrc0    : 8;  \/*   [7:0] *\/$/;"	m	struct:si_fmt_sopc_t
+ssrc1	asm.h	/^        unsigned int ssrc1    : 8;  \/*  [15:8] *\/$/;"	m	struct:si_fmt_sop2_t
+ssrc1	asm.h	/^        unsigned int ssrc1    : 8;  \/*  [15:8] *\/$/;"	m	struct:si_fmt_sopc_t
+stack_size_used	bin-file.h	/^	int stack_size_used;$/;"	m	struct:si_bin_enc_dict_entry_t
+startUserReg	bin-file.h	/^	unsigned int startUserReg;$/;"	m	struct:si_bin_enc_user_element_t
+subdir	Makefile	/^subdir = src\/arch\/southern-islands\/asm$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+tfe	asm.h	/^        unsigned int tfe       : 1;   \/*     16  *\/$/;"	m	struct:si_fmt_mimg_t
+tfe	asm.h	/^        unsigned int tfe       : 1;   \/*     55  *\/$/;"	m	struct:si_fmt_mubuf_t
+tfe	asm.h	/^        unsigned int tfe      : 1;   \/*     55  *\/$/;"	m	struct:si_fmt_mtbuf_t
+tg_size_en	bin-file.h	/^	unsigned int tg_size_en 	: 1;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+tgid_x_en	bin-file.h	/^	unsigned int tgid_x_en 		: 1;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+tgid_y_en	bin-file.h	/^	unsigned int tgid_y_en 		: 1;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+tgid_z_en	bin-file.h	/^	unsigned int tgid_z_en 		: 1;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+tgt	asm.h	/^        unsigned int tgt      : 6;   \/*   [9:4] *\/$/;"	m	struct:si_fmt_exp_t
+tidig_comp_cnt	bin-file.h	/^	unsigned int tidig_comp_cnt 	: 2;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..\/..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..\/..\/..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+trap_present	bin-file.h	/^	unsigned int trap_present 	: 1;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+type	arg.h	/^	enum si_arg_type_t type;$/;"	m	struct:si_arg_t	typeref:enum:si_arg_t::si_arg_type_t
+type	bin-file.c	/^	Elf32_Word type;  \/* Type of the payload *\/$/;"	m	struct:pt_note_header_t	file:
+type	input.h	/^	enum si_input_data_type_t type;$/;"	m	struct:si_input_t	typeref:enum:si_input_t::si_input_data_type_t
+uav	arg.h	/^	int uav;$/;"	m	struct:si_arg_image_t
+unknown1	bin-file.h	/^	Elf32_Word unknown1;  \/* FIXME *\/$/;"	m	struct:pt_note_uav_entry_t
+unknown2	bin-file.h	/^	Elf32_Word unknown2;  \/* FIXME *\/$/;"	m	struct:pt_note_uav_entry_t
+unknown3	bin-file.h	/^	Elf32_Word unknown3;  \/* FIXME *\/$/;"	m	struct:pt_note_uav_entry_t
+unorm	asm.h	/^        unsigned int unorm     : 1;   \/*     12  *\/$/;"	m	struct:si_fmt_mimg_t
+usage_index	input.h	/^	unsigned int usage_index; \/* The associated vertex attribute index *\/$/;"	m	struct:si_input_t
+userElementCount	bin-file.h	/^	unsigned int userElementCount;$/;"	m	struct:si_bin_enc_dict_entry_t
+userElements	bin-file.h	/^	struct si_bin_enc_user_element_t userElements[16];$/;"	m	struct:si_bin_enc_dict_entry_t	typeref:struct:si_bin_enc_dict_entry_t::si_bin_enc_user_element_t
+userRegCount	bin-file.h	/^	unsigned int userRegCount;$/;"	m	struct:si_bin_enc_user_element_t
+user_sgpr	bin-file.h	/^	unsigned int user_sgpr 		: 5;$/;"	m	struct:si_bin_compute_pgm_rsrc2_t
+vaddr	asm.h	/^        unsigned int vaddr     : 8;   \/* [39:32] *\/$/;"	m	struct:si_fmt_mimg_t
+vaddr	asm.h	/^        unsigned int vaddr     : 8;   \/* [39:32] *\/$/;"	m	struct:si_fmt_mubuf_t
+vaddr	asm.h	/^        unsigned int vaddr    : 8;   \/* [39:32] *\/$/;"	m	struct:si_fmt_mtbuf_t
+value	arg.h	/^		struct si_arg_value_t value;$/;"	m	union:si_arg_t::__anon1	typeref:struct:si_arg_t::__anon1::si_arg_value_t
+value	arg.h	/^	int value;$/;"	m	struct:si_arg_sampler_t
+value	bin-file.h	/^	Elf32_Word value;  \/* Value *\/$/;"	m	struct:pt_note_prog_info_entry_t
+value_ptr	arg.h	/^	void *value_ptr;$/;"	m	struct:si_arg_value_t
+vdata	asm.h	/^        unsigned int vdata     : 8;   \/* [47:40] *\/$/;"	m	struct:si_fmt_mimg_t
+vdata	asm.h	/^        unsigned int vdata     : 8;   \/* [47:40] *\/$/;"	m	struct:si_fmt_mubuf_t
+vdata	asm.h	/^        unsigned int vdata    : 8;   \/* [47:40] *\/$/;"	m	struct:si_fmt_mtbuf_t
+vdst	asm.h	/^        unsigned int vdst     : 8;   \/*   [7:0] *\/$/;"	m	struct:si_fmt_vop3a_t
+vdst	asm.h	/^        unsigned int vdst     : 8;   \/*   [7:0] *\/$/;"	m	struct:si_fmt_vop3b_t
+vdst	asm.h	/^        unsigned int vdst     : 8;   \/* [24:17] *\/$/;"	m	struct:si_fmt_vop1_t
+vdst	asm.h	/^        unsigned int vdst     : 8;   \/* [24:17] *\/$/;"	m	struct:si_fmt_vop2_t
+vdst	asm.h	/^        unsigned int vdst     : 8;   \/* [25:18] *\/$/;"	m	struct:si_fmt_vintrp_t
+vdst	asm.h	/^        unsigned int vdst     : 8;   \/* [63:56] *\/$/;"	m	struct:si_fmt_ds_t
+vintrp	asm.h	/^	struct si_fmt_vintrp_t vintrp;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_vintrp_t
+vm	asm.h	/^        unsigned int vm       : 1;   \/*     12  *\/$/;"	m	struct:si_fmt_exp_t
+vop1	asm.h	/^	struct si_fmt_vop1_t vop1;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_vop1_t
+vop2	asm.h	/^	struct si_fmt_vop2_t vop2;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_vop2_t
+vop3a	asm.h	/^	struct si_fmt_vop3a_t vop3a;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_vop3a_t
+vop3b	asm.h	/^	struct si_fmt_vop3b_t vop3b;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_vop3b_t
+vopc	asm.h	/^	struct si_fmt_vopc_t vopc;$/;"	m	union:si_inst_microcode_t	typeref:struct:si_inst_microcode_t::si_fmt_vopc_t
+vsrc	asm.h	/^        unsigned int vsrc     : 8;   \/*   [7:0] *\/$/;"	m	struct:si_fmt_vintrp_t
+vsrc0	asm.h	/^        unsigned int vsrc0    : 8;   \/* [39:32] *\/$/;"	m	struct:si_fmt_exp_t
+vsrc1	asm.h	/^        unsigned int vsrc1    : 8;   \/*  [16:9] *\/$/;"	m	struct:si_fmt_vop2_t
+vsrc1	asm.h	/^        unsigned int vsrc1    : 8;   \/*  [16:9] *\/$/;"	m	struct:si_fmt_vopc_t
+vsrc1	asm.h	/^        unsigned int vsrc1    : 8;   \/* [47:40] *\/$/;"	m	struct:si_fmt_exp_t
+vsrc2	asm.h	/^        unsigned int vsrc2    : 8;   \/* [55:48] *\/$/;"	m	struct:si_fmt_exp_t
+vsrc3	asm.h	/^        unsigned int vsrc3    : 8;   \/* [63:56] *\/$/;"	m	struct:si_fmt_exp_t

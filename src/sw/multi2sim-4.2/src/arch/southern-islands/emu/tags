@@ -1,0 +1,1298 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run tar$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_AR	Makefile	/^AM_V_AR = $(am__v_AR_$(V))$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+ARCH_SOUTHERN_ISLANDS_EMU_EMU_H	emu.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_ISA_H	isa.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_MACHINE_H	machine.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_NDRANGE_H	ndrange.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_OPENGL_BIN_FILE_H	opengl-bin-file.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_WAVEFRONT_H	wavefront.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_WORK_GROUP_H	work-group.h	21;"	d
+ARCH_SOUTHERN_ISLANDS_EMU_WORK_ITEM_H	work-item.h	21;"	d
+ARFLAGS	Makefile	/^ARFLAGS = cru$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCAS	Makefile	/^CCAS = gcc$/;"	m
+CCASDEPMODE	Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
+CCASFLAGS	Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -msse2 -O3 -std=gnu99 -DNDEBUG$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIR	Makefile	/^DATADIR = ${prefix}\/share$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = $/;"	m
+DEFINST	isa.c	54;"	d	file:
+DEFINST	isa.c	58;"	d	file:
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"multi2sim\\" -DPACKAGE_TARNAME=\\"multi2sim\\" -DPACKAGE_VERSION=\\"4.2\\" -DPACKAGE_STRING=\\"multi2sim\\ 4.2\\" -DPACKAGE_BUGREPORT=\\"\\" -DPACKAGE=\\"multi2sim\\" -DVERSION=\\"4.2\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\\".libs\/\\" -DSTDC_HEADERS=1 -DHAVE_SYS_WAIT_H=1 -DHAVE_FCNTL_H=1 -DHAVE_FLOAT_H=1 -DHAVE_STDDEF_H=1 -DHAVE_STDINT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_SOCKET_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_UNISTD_H=1 -DHAVE_UTIME_H=1 -DHAVE_ELF_H=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_RDEV=1 -DHAVE_UNISTD_H=1 -DHAVE_CHOWN=1 -DLSTAT_FOLLOWS_SLASHED_SYMLINK=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_STDLIB_H=1 -DHAVE_UNISTD_H=1 -DHAVE_GETPAGESIZE=1 -DHAVE_MMAP=1 -DHAVE_STDLIB_H=1 -DHAVE_REALLOC=1 -DHAVE_ALARM=1 -DHAVE_BZERO=1 -DHAVE_FTRUNCATE=1 -DHAVE_GETCWD=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_MEMSET=1 -DHAVE_MKDIR=1 -DHAVE_MUNMAP=1 -DHAVE_SELECT=1 -DHAVE_SOCKET=1 -DHAVE_STRCASECMP=1 -DHAVE_STRCHR=1 -DHAVE_STRDUP=1 -DHAVE_STRNCASECMP=1 -DHAVE_STRTOL=1 -DHAVE_UTIME=1 -DHAVE_SSE4=1 -DHAVE_SYNC_BUILTINS=1 -DYYTEXT_POINTER=1 -DHAVE_FLEX_BISON=1$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libemu_a_SOURCES)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+INCLUDES	Makefile	/^INCLUDES =  -I$(top_srcdir) -I$(top_srcdir)\/src $/;"	m
+INST	machine.c	101;"	d	file:
+INST	machine.c	1029;"	d	file:
+INST	machine.c	1032;"	d	file:
+INST	machine.c	1063;"	d	file:
+INST	machine.c	1067;"	d	file:
+INST	machine.c	1116;"	d	file:
+INST	machine.c	1124;"	d	file:
+INST	machine.c	1146;"	d	file:
+INST	machine.c	1149;"	d	file:
+INST	machine.c	1155;"	d	file:
+INST	machine.c	1158;"	d	file:
+INST	machine.c	1194;"	d	file:
+INST	machine.c	1197;"	d	file:
+INST	machine.c	1232;"	d	file:
+INST	machine.c	1235;"	d	file:
+INST	machine.c	1260;"	d	file:
+INST	machine.c	1267;"	d	file:
+INST	machine.c	1288;"	d	file:
+INST	machine.c	1291;"	d	file:
+INST	machine.c	1316;"	d	file:
+INST	machine.c	1319;"	d	file:
+INST	machine.c	1353;"	d	file:
+INST	machine.c	1357;"	d	file:
+INST	machine.c	1402;"	d	file:
+INST	machine.c	1409;"	d	file:
+INST	machine.c	1440;"	d	file:
+INST	machine.c	1443;"	d	file:
+INST	machine.c	1474;"	d	file:
+INST	machine.c	1477;"	d	file:
+INST	machine.c	1508;"	d	file:
+INST	machine.c	1512;"	d	file:
+INST	machine.c	1543;"	d	file:
+INST	machine.c	1546;"	d	file:
+INST	machine.c	1577;"	d	file:
+INST	machine.c	1580;"	d	file:
+INST	machine.c	158;"	d	file:
+INST	machine.c	160;"	d	file:
+INST	machine.c	1611;"	d	file:
+INST	machine.c	1614;"	d	file:
+INST	machine.c	1645;"	d	file:
+INST	machine.c	1648;"	d	file:
+INST	machine.c	1679;"	d	file:
+INST	machine.c	1682;"	d	file:
+INST	machine.c	1713;"	d	file:
+INST	machine.c	1728;"	d	file:
+INST	machine.c	1742;"	d	file:
+INST	machine.c	1745;"	d	file:
+INST	machine.c	1764;"	d	file:
+INST	machine.c	1768;"	d	file:
+INST	machine.c	1807;"	d	file:
+INST	machine.c	1810;"	d	file:
+INST	machine.c	1829;"	d	file:
+INST	machine.c	1832;"	d	file:
+INST	machine.c	1851;"	d	file:
+INST	machine.c	1855;"	d	file:
+INST	machine.c	1894;"	d	file:
+INST	machine.c	1898;"	d	file:
+INST	machine.c	1917;"	d	file:
+INST	machine.c	1966;"	d	file:
+INST	machine.c	1972;"	d	file:
+INST	machine.c	1975;"	d	file:
+INST	machine.c	1997;"	d	file:
+INST	machine.c	2000;"	d	file:
+INST	machine.c	2020;"	d	file:
+INST	machine.c	2023;"	d	file:
+INST	machine.c	2029;"	d	file:
+INST	machine.c	2032;"	d	file:
+INST	machine.c	2068;"	d	file:
+INST	machine.c	2071;"	d	file:
+INST	machine.c	2095;"	d	file:
+INST	machine.c	2098;"	d	file:
+INST	machine.c	2122;"	d	file:
+INST	machine.c	2125;"	d	file:
+INST	machine.c	2163;"	d	file:
+INST	machine.c	2166;"	d	file:
+INST	machine.c	218;"	d	file:
+INST	machine.c	2206;"	d	file:
+INST	machine.c	2209;"	d	file:
+INST	machine.c	220;"	d	file:
+INST	machine.c	2240;"	d	file:
+INST	machine.c	2244;"	d	file:
+INST	machine.c	2280;"	d	file:
+INST	machine.c	2283;"	d	file:
+INST	machine.c	2289;"	d	file:
+INST	machine.c	2292;"	d	file:
+INST	machine.c	230;"	d	file:
+INST	machine.c	2318;"	d	file:
+INST	machine.c	2321;"	d	file:
+INST	machine.c	2327;"	d	file:
+INST	machine.c	2330;"	d	file:
+INST	machine.c	2336;"	d	file:
+INST	machine.c	2339;"	d	file:
+INST	machine.c	2364;"	d	file:
+INST	machine.c	2367;"	d	file:
+INST	machine.c	2373;"	d	file:
+INST	machine.c	2376;"	d	file:
+INST	machine.c	2382;"	d	file:
+INST	machine.c	2385;"	d	file:
+INST	machine.c	2410;"	d	file:
+INST	machine.c	2413;"	d	file:
+INST	machine.c	2450;"	d	file:
+INST	machine.c	2453;"	d	file:
+INST	machine.c	2490;"	d	file:
+INST	machine.c	2493;"	d	file:
+INST	machine.c	2519;"	d	file:
+INST	machine.c	2522;"	d	file:
+INST	machine.c	2530;"	d	file:
+INST	machine.c	2536;"	d	file:
+INST	machine.c	2539;"	d	file:
+INST	machine.c	2565;"	d	file:
+INST	machine.c	2569;"	d	file:
+INST	machine.c	2595;"	d	file:
+INST	machine.c	2603;"	d	file:
+INST	machine.c	2634;"	d	file:
+INST	machine.c	2637;"	d	file:
+INST	machine.c	2665;"	d	file:
+INST	machine.c	2668;"	d	file:
+INST	machine.c	2696;"	d	file:
+INST	machine.c	2699;"	d	file:
+INST	machine.c	2727;"	d	file:
+INST	machine.c	2730;"	d	file:
+INST	machine.c	2736;"	d	file:
+INST	machine.c	2740;"	d	file:
+INST	machine.c	2775;"	d	file:
+INST	machine.c	2778;"	d	file:
+INST	machine.c	2806;"	d	file:
+INST	machine.c	2809;"	d	file:
+INST	machine.c	282;"	d	file:
+INST	machine.c	2841;"	d	file:
+INST	machine.c	2844;"	d	file:
+INST	machine.c	2879;"	d	file:
+INST	machine.c	2882;"	d	file:
+INST	machine.c	2917;"	d	file:
+INST	machine.c	2920;"	d	file:
+INST	machine.c	293;"	d	file:
+INST	machine.c	2955;"	d	file:
+INST	machine.c	2958;"	d	file:
+INST	machine.c	2993;"	d	file:
+INST	machine.c	2996;"	d	file:
+INST	machine.c	300;"	d	file:
+INST	machine.c	3031;"	d	file:
+INST	machine.c	3034;"	d	file:
+INST	machine.c	3067;"	d	file:
+INST	machine.c	3070;"	d	file:
+INST	machine.c	3103;"	d	file:
+INST	machine.c	3106;"	d	file:
+INST	machine.c	3134;"	d	file:
+INST	machine.c	3137;"	d	file:
+INST	machine.c	3170;"	d	file:
+INST	machine.c	3173;"	d	file:
+INST	machine.c	3205;"	d	file:
+INST	machine.c	3208;"	d	file:
+INST	machine.c	3236;"	d	file:
+INST	machine.c	3239;"	d	file:
+INST	machine.c	3267;"	d	file:
+INST	machine.c	3270;"	d	file:
+INST	machine.c	3276;"	d	file:
+INST	machine.c	3279;"	d	file:
+INST	machine.c	3309;"	d	file:
+INST	machine.c	3312;"	d	file:
+INST	machine.c	3340;"	d	file:
+INST	machine.c	3343;"	d	file:
+INST	machine.c	336;"	d	file:
+INST	machine.c	3379;"	d	file:
+INST	machine.c	3382;"	d	file:
+INST	machine.c	339;"	d	file:
+INST	machine.c	3414;"	d	file:
+INST	machine.c	3417;"	d	file:
+INST	machine.c	3449;"	d	file:
+INST	machine.c	3452;"	d	file:
+INST	machine.c	3458;"	d	file:
+INST	machine.c	3465;"	d	file:
+INST	machine.c	3493;"	d	file:
+INST	machine.c	3496;"	d	file:
+INST	machine.c	3524;"	d	file:
+INST	machine.c	3527;"	d	file:
+INST	machine.c	3533;"	d	file:
+INST	machine.c	3536;"	d	file:
+INST	machine.c	3564;"	d	file:
+INST	machine.c	3567;"	d	file:
+INST	machine.c	3595;"	d	file:
+INST	machine.c	3598;"	d	file:
+INST	machine.c	3604;"	d	file:
+INST	machine.c	3607;"	d	file:
+INST	machine.c	3613;"	d	file:
+INST	machine.c	3616;"	d	file:
+INST	machine.c	3622;"	d	file:
+INST	machine.c	3625;"	d	file:
+INST	machine.c	3631;"	d	file:
+INST	machine.c	3634;"	d	file:
+INST	machine.c	3640;"	d	file:
+INST	machine.c	3643;"	d	file:
+INST	machine.c	3649;"	d	file:
+INST	machine.c	3652;"	d	file:
+INST	machine.c	3680;"	d	file:
+INST	machine.c	3683;"	d	file:
+INST	machine.c	3711;"	d	file:
+INST	machine.c	3714;"	d	file:
+INST	machine.c	3742;"	d	file:
+INST	machine.c	3745;"	d	file:
+INST	machine.c	376;"	d	file:
+INST	machine.c	3773;"	d	file:
+INST	machine.c	3776;"	d	file:
+INST	machine.c	379;"	d	file:
+INST	machine.c	3804;"	d	file:
+INST	machine.c	3807;"	d	file:
+INST	machine.c	3835;"	d	file:
+INST	machine.c	3838;"	d	file:
+INST	machine.c	3844;"	d	file:
+INST	machine.c	3847;"	d	file:
+INST	machine.c	3875;"	d	file:
+INST	machine.c	3878;"	d	file:
+INST	machine.c	3886;"	d	file:
+INST	machine.c	3914;"	d	file:
+INST	machine.c	3917;"	d	file:
+INST	machine.c	3945;"	d	file:
+INST	machine.c	3948;"	d	file:
+INST	machine.c	3954;"	d	file:
+INST	machine.c	3957;"	d	file:
+INST	machine.c	3963;"	d	file:
+INST	machine.c	3973;"	d	file:
+INST	machine.c	4013;"	d	file:
+INST	machine.c	4016;"	d	file:
+INST	machine.c	4058;"	d	file:
+INST	machine.c	4061;"	d	file:
+INST	machine.c	4103;"	d	file:
+INST	machine.c	4106;"	d	file:
+INST	machine.c	4148;"	d	file:
+INST	machine.c	4151;"	d	file:
+INST	machine.c	416;"	d	file:
+INST	machine.c	4185;"	d	file:
+INST	machine.c	4188;"	d	file:
+INST	machine.c	419;"	d	file:
+INST	machine.c	4231;"	d	file:
+INST	machine.c	4234;"	d	file:
+INST	machine.c	4280;"	d	file:
+INST	machine.c	4283;"	d	file:
+INST	machine.c	4318;"	d	file:
+INST	machine.c	4322;"	d	file:
+INST	machine.c	4357;"	d	file:
+INST	machine.c	4361;"	d	file:
+INST	machine.c	4407;"	d	file:
+INST	machine.c	4410;"	d	file:
+INST	machine.c	4443;"	d	file:
+INST	machine.c	4446;"	d	file:
+INST	machine.c	4493;"	d	file:
+INST	machine.c	4496;"	d	file:
+INST	machine.c	4502;"	d	file:
+INST	machine.c	4505;"	d	file:
+INST	machine.c	4544;"	d	file:
+INST	machine.c	4549;"	d	file:
+INST	machine.c	4555;"	d	file:
+INST	machine.c	4558;"	d	file:
+INST	machine.c	4564;"	d	file:
+INST	machine.c	4567;"	d	file:
+INST	machine.c	4573;"	d	file:
+INST	machine.c	4576;"	d	file:
+INST	machine.c	4606;"	d	file:
+INST	machine.c	4612;"	d	file:
+INST	machine.c	4618;"	d	file:
+INST	machine.c	4621;"	d	file:
+INST	machine.c	4627;"	d	file:
+INST	machine.c	462;"	d	file:
+INST	machine.c	4630;"	d	file:
+INST	machine.c	465;"	d	file:
+INST	machine.c	4662;"	d	file:
+INST	machine.c	4665;"	d	file:
+INST	machine.c	4696;"	d	file:
+INST	machine.c	4699;"	d	file:
+INST	machine.c	4736;"	d	file:
+INST	machine.c	4739;"	d	file:
+INST	machine.c	4782;"	d	file:
+INST	machine.c	4785;"	d	file:
+INST	machine.c	47;"	d	file:
+INST	machine.c	4828;"	d	file:
+INST	machine.c	4831;"	d	file:
+INST	machine.c	4839;"	d	file:
+INST	machine.c	4882;"	d	file:
+INST	machine.c	4885;"	d	file:
+INST	machine.c	4891;"	d	file:
+INST	machine.c	4894;"	d	file:
+INST	machine.c	4937;"	d	file:
+INST	machine.c	4940;"	d	file:
+INST	machine.c	4983;"	d	file:
+INST	machine.c	4986;"	d	file:
+INST	machine.c	4992;"	d	file:
+INST	machine.c	4995;"	d	file:
+INST	machine.c	5001;"	d	file:
+INST	machine.c	5004;"	d	file:
+INST	machine.c	5010;"	d	file:
+INST	machine.c	5013;"	d	file:
+INST	machine.c	5019;"	d	file:
+INST	machine.c	5022;"	d	file:
+INST	machine.c	5028;"	d	file:
+INST	machine.c	5031;"	d	file:
+INST	machine.c	5037;"	d	file:
+INST	machine.c	5040;"	d	file:
+INST	machine.c	5046;"	d	file:
+INST	machine.c	5049;"	d	file:
+INST	machine.c	5092;"	d	file:
+INST	machine.c	5095;"	d	file:
+INST	machine.c	509;"	d	file:
+INST	machine.c	512;"	d	file:
+INST	machine.c	5138;"	d	file:
+INST	machine.c	5141;"	d	file:
+INST	machine.c	5184;"	d	file:
+INST	machine.c	5187;"	d	file:
+INST	machine.c	5230;"	d	file:
+INST	machine.c	5233;"	d	file:
+INST	machine.c	5276;"	d	file:
+INST	machine.c	5279;"	d	file:
+INST	machine.c	5322;"	d	file:
+INST	machine.c	5325;"	d	file:
+INST	machine.c	5371;"	d	file:
+INST	machine.c	5374;"	d	file:
+INST	machine.c	5380;"	d	file:
+INST	machine.c	5383;"	d	file:
+INST	machine.c	5414;"	d	file:
+INST	machine.c	5417;"	d	file:
+INST	machine.c	5448;"	d	file:
+INST	machine.c	5451;"	d	file:
+INST	machine.c	5482;"	d	file:
+INST	machine.c	5484;"	d	file:
+INST	machine.c	5516;"	d	file:
+INST	machine.c	5519;"	d	file:
+INST	machine.c	5550;"	d	file:
+INST	machine.c	5553;"	d	file:
+INST	machine.c	5559;"	d	file:
+INST	machine.c	555;"	d	file:
+INST	machine.c	5562;"	d	file:
+INST	machine.c	558;"	d	file:
+INST	machine.c	5618;"	d	file:
+INST	machine.c	5621;"	d	file:
+INST	machine.c	5666;"	d	file:
+INST	machine.c	5669;"	d	file:
+INST	machine.c	5782;"	d	file:
+INST	machine.c	5785;"	d	file:
+INST	machine.c	5910;"	d	file:
+INST	machine.c	5913;"	d	file:
+INST	machine.c	5919;"	d	file:
+INST	machine.c	591;"	d	file:
+INST	machine.c	5927;"	d	file:
+INST	machine.c	594;"	d	file:
+INST	machine.c	5964;"	d	file:
+INST	machine.c	5970;"	d	file:
+INST	machine.c	5976;"	d	file:
+INST	machine.c	5983;"	d	file:
+INST	machine.c	5989;"	d	file:
+INST	machine.c	5992;"	d	file:
+INST	machine.c	5998;"	d	file:
+INST	machine.c	6001;"	d	file:
+INST	machine.c	6007;"	d	file:
+INST	machine.c	6014;"	d	file:
+INST	machine.c	6020;"	d	file:
+INST	machine.c	6023;"	d	file:
+INST	machine.c	6099;"	d	file:
+INST	machine.c	6102;"	d	file:
+INST	machine.c	6167;"	d	file:
+INST	machine.c	6170;"	d	file:
+INST	machine.c	6223;"	d	file:
+INST	machine.c	6226;"	d	file:
+INST	machine.c	6280;"	d	file:
+INST	machine.c	6283;"	d	file:
+INST	machine.c	630;"	d	file:
+INST	machine.c	6335;"	d	file:
+INST	machine.c	6338;"	d	file:
+INST	machine.c	633;"	d	file:
+INST	machine.c	6400;"	d	file:
+INST	machine.c	6403;"	d	file:
+INST	machine.c	6457;"	d	file:
+INST	machine.c	6460;"	d	file:
+INST	machine.c	6514;"	d	file:
+INST	machine.c	6517;"	d	file:
+INST	machine.c	6572;"	d	file:
+INST	machine.c	6575;"	d	file:
+INST	machine.c	6629;"	d	file:
+INST	machine.c	6635;"	d	file:
+INST	machine.c	6710;"	d	file:
+INST	machine.c	6712;"	d	file:
+INST	machine.c	673;"	d	file:
+INST	machine.c	676;"	d	file:
+INST	machine.c	6787;"	d	file:
+INST	machine.c	6789;"	d	file:
+INST	machine.c	6870;"	d	file:
+INST	machine.c	6872;"	d	file:
+INST	machine.c	6953;"	d	file:
+INST	machine.c	6955;"	d	file:
+INST	machine.c	6961;"	d	file:
+INST	machine.c	6967;"	d	file:
+INST	machine.c	7060;"	d	file:
+INST	machine.c	7062;"	d	file:
+INST	machine.c	712;"	d	file:
+INST	machine.c	7155;"	d	file:
+INST	machine.c	7157;"	d	file:
+INST	machine.c	715;"	d	file:
+INST	machine.c	7251;"	d	file:
+INST	machine.c	7253;"	d	file:
+INST	machine.c	7339;"	d	file:
+INST	machine.c	7341;"	d	file:
+INST	machine.c	7434;"	d	file:
+INST	machine.c	7436;"	d	file:
+INST	machine.c	7529;"	d	file:
+INST	machine.c	7535;"	d	file:
+INST	machine.c	7541;"	d	file:
+INST	machine.c	7543;"	d	file:
+INST	machine.c	7549;"	d	file:
+INST	machine.c	7555;"	d	file:
+INST	machine.c	755;"	d	file:
+INST	machine.c	7561;"	d	file:
+INST	machine.c	758;"	d	file:
+INST	machine.c	798;"	d	file:
+INST	machine.c	801;"	d	file:
+INST	machine.c	841;"	d	file:
+INST	machine.c	844;"	d	file:
+INST	machine.c	884;"	d	file:
+INST	machine.c	887;"	d	file:
+INST	machine.c	932;"	d	file:
+INST	machine.c	935;"	d	file:
+INST	machine.c	980;"	d	file:
+INST	machine.c	983;"	d	file:
+INST	machine.c	99;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LEX	Makefile	/^LEX = flex$/;"	m
+LEXLIB	Makefile	/^LEXLIB = -lfl$/;"	m
+LEX_OUTPUT_ROOT	Makefile	/^LEX_OUTPUT_ROOT = lex.yy$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBRARIES	Makefile	/^LIBRARIES = $(lib_LIBRARIES)$/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LLVM_CFLAGS	Makefile	/^LLVM_CFLAGS = $/;"	m
+LLVM_CXXFLAGS	Makefile	/^LLVM_CXXFLAGS = $/;"	m
+LLVM_LDFLAGS	Makefile	/^LLVM_LDFLAGS = $/;"	m
+LLVM_LIBS	Makefile	/^LLVM_LIBS = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+M2S_INCLUDES	Makefile	/^M2S_INCLUDES =  -I$(top_srcdir) -I$(top_srcdir)\/src $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/missing --run makeinfo$/;"	m
+MAX_SEMANTICS_MAPPINGS	opengl-bin-file.h	27;"	d
+MAX_USER_ELEMENTS	opengl-bin-file.h	26;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NOT_IMPL	machine.c	40;"	d	file:
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OPENGL_LDFLAGS	Makefile	/^OPENGL_LDFLAGS = -lGL -lGLU -lGLEW -lglut$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = multi2sim$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = multi2sim$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = multi2sim 4.2$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = multi2sim$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 4.2$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKGDATADIR	Makefile	/^PKGDATADIR = ${datarootdir}\/multi2sim$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIEmu	emu.c	/^CLASS_IMPLEMENTATION(SIEmu);$/;"	v
+SIEmuCreate	emu.c	/^void SIEmuCreate(SIEmu *self)$/;"	f
+SIEmuDestroy	emu.c	/^void SIEmuDestroy(SIEmu *self)$/;"	f
+SIEmuDump	emu.c	/^void SIEmuDump(Object *self, FILE *f)$/;"	f
+SIEmuDumpSummary	emu.c	/^void SIEmuDumpSummary(Emu *self, FILE *f)$/;"	f
+SIEmuRun	emu.c	/^int SIEmuRun(Emu *self)$/;"	f
+SI_BUF_DESC_DATA_FMT_10_10_10_2	emu.h	/^	SI_BUF_DESC_DATA_FMT_10_10_10_2,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_10_11_11	emu.h	/^	SI_BUF_DESC_DATA_FMT_10_11_11,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_16	emu.h	/^	SI_BUF_DESC_DATA_FMT_16,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_16_16	emu.h	/^	SI_BUF_DESC_DATA_FMT_16_16,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_16_16_16_16	emu.h	/^	SI_BUF_DESC_DATA_FMT_16_16_16_16,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_2_10_10_10	emu.h	/^	SI_BUF_DESC_DATA_FMT_2_10_10_10,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_32	emu.h	/^	SI_BUF_DESC_DATA_FMT_32,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_32_32	emu.h	/^	SI_BUF_DESC_DATA_FMT_32_32,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_32_32_32	emu.h	/^	SI_BUF_DESC_DATA_FMT_32_32_32,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_32_32_32_32	emu.h	/^	SI_BUF_DESC_DATA_FMT_32_32_32_32$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_8	emu.h	/^	SI_BUF_DESC_DATA_FMT_8,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_8_8	emu.h	/^	SI_BUF_DESC_DATA_FMT_8_8,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_8_8_8_8	emu.h	/^	SI_BUF_DESC_DATA_FMT_8_8_8_8,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_DATA_FMT_INVALID	emu.h	/^	SI_BUF_DESC_DATA_FMT_INVALID = 0,$/;"	e	enum:si_buf_desc_data_fmt_t
+SI_BUF_DESC_NUM_FMT_FLOAT	emu.h	/^	SI_BUF_DESC_NUM_FMT_FLOAT$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_INVALID	emu.h	/^	SI_BUF_DESC_NUM_FMT_INVALID = -1,  \/* Not part of SI spec *\/$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_SINT	emu.h	/^	SI_BUF_DESC_NUM_FMT_SINT,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_SNORM	emu.h	/^	SI_BUF_DESC_NUM_FMT_SNORM,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_SNORM_OGL	emu.h	/^	SI_BUF_DESC_NUM_FMT_SNORM_OGL,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_SSCALED	emu.h	/^	SI_BUF_DESC_NUM_FMT_SSCALED,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_UINT	emu.h	/^	SI_BUF_DESC_NUM_FMT_UINT,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_UNORM	emu.h	/^	SI_BUF_DESC_NUM_FMT_UNORM = 0,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_BUF_DESC_NUM_FMT_USCALED	emu.h	/^	SI_BUF_DESC_NUM_FMT_USCALED,$/;"	e	enum:si_buf_desc_num_fmt_t
+SI_EMU_CONST_BUF_0_SIZE	emu.h	100;"	d
+SI_EMU_CONST_BUF_1_SIZE	emu.h	101;"	d
+SI_EMU_CONST_BUF_TABLE_ENTRY_SIZE	emu.h	89;"	d
+SI_EMU_CONST_BUF_TABLE_SIZE	emu.h	90;"	d
+SI_EMU_MAX_NUM_CONST_BUFS	emu.h	88;"	d
+SI_EMU_MAX_NUM_RESOURCES	emu.h	93;"	d
+SI_EMU_MAX_NUM_UAVS	emu.h	78;"	d
+SI_EMU_MAX_NUM_VERTEX_BUFFERS	emu.h	83;"	d
+SI_EMU_RESOURCE_TABLE_ENTRY_SIZE	emu.h	94;"	d
+SI_EMU_RESOURCE_TABLE_SIZE	emu.h	95;"	d
+SI_EMU_TOTAL_CONST_BUF_SIZE	emu.h	103;"	d
+SI_EMU_TOTAL_TABLE_SIZE	emu.h	97;"	d
+SI_EMU_UAV_TABLE_ENTRY_SIZE	emu.h	79;"	d
+SI_EMU_UAV_TABLE_SIZE	emu.h	80;"	d
+SI_EMU_VERTEX_BUFFER_TABLE_ENTRY_SIZE	emu.h	84;"	d
+SI_EMU_VERTEX_BUFFER_TABLE_SIZE	emu.h	85;"	d
+SI_EXEC	isa.h	65;"	d
+SI_EXECZ	isa.h	66;"	d
+SI_FOREACH_WAVEFRONT_IN_WORK_GROUP	wavefront.h	88;"	d
+SI_FOREACH_WORK_ITEM_IN_WAVEFRONT	work-item.h	66;"	d
+SI_INST_DS	isa.h	101;"	d
+SI_INST_MTBUF	isa.h	102;"	d
+SI_INST_MUBUF	isa.h	103;"	d
+SI_INST_SMRD	isa.h	90;"	d
+SI_INST_SOP1	isa.h	94;"	d
+SI_INST_SOP2	isa.h	95;"	d
+SI_INST_SOPC	isa.h	93;"	d
+SI_INST_SOPK	isa.h	92;"	d
+SI_INST_SOPP	isa.h	91;"	d
+SI_INST_VOP1	isa.h	96;"	d
+SI_INST_VOP2	isa.h	97;"	d
+SI_INST_VOP3a	isa.h	100;"	d
+SI_INST_VOP3b	isa.h	99;"	d
+SI_INST_VOPC	isa.h	98;"	d
+SI_ISA_ARG_NOT_SUPPORTED	isa.h	78;"	d
+SI_ISA_ARG_NOT_SUPPORTED_NEQ	isa.h	81;"	d
+SI_ISA_ARG_NOT_SUPPORTED_RANGE	isa.h	84;"	d
+SI_ISA_WRITE_TASK_NONE	isa.h	/^	SI_ISA_WRITE_TASK_NONE = 0,$/;"	e	enum:si_isa_write_task_kind_t
+SI_ISA_WRITE_TASK_PUSH_BEFORE	isa.h	/^	SI_ISA_WRITE_TASK_PUSH_BEFORE,$/;"	e	enum:si_isa_write_task_kind_t
+SI_ISA_WRITE_TASK_SET_PRED	isa.h	/^	SI_ISA_WRITE_TASK_SET_PRED$/;"	e	enum:si_isa_write_task_kind_t
+SI_ISA_WRITE_TASK_WRITE_DEST	isa.h	/^	SI_ISA_WRITE_TASK_WRITE_DEST,$/;"	e	enum:si_isa_write_task_kind_t
+SI_ISA_WRITE_TASK_WRITE_LDS	isa.h	/^	SI_ISA_WRITE_TASK_WRITE_LDS,$/;"	e	enum:si_isa_write_task_kind_t
+SI_M0	isa.h	62;"	d
+SI_MAX_LDS_ACCESSES_PER_INST	work-item.h	26;"	d
+SI_OPENGL_SHADER_COMPUTE	opengl-bin-file.h	/^	SI_OPENGL_SHADER_COMPUTE,$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_OPENGL_SHADER_CONTROL	opengl-bin-file.h	/^	SI_OPENGL_SHADER_CONTROL, \/* aka HULL shader *\/$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_OPENGL_SHADER_EVALUATION	opengl-bin-file.h	/^	SI_OPENGL_SHADER_EVALUATION, \/* aka Domain shader *\/$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_OPENGL_SHADER_FRAGMENT	opengl-bin-file.h	/^	SI_OPENGL_SHADER_FRAGMENT = 4,$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_OPENGL_SHADER_GEOMETRY	opengl-bin-file.h	/^	SI_OPENGL_SHADER_GEOMETRY,$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_OPENGL_SHADER_INVALID	opengl-bin-file.h	/^	SI_OPENGL_SHADER_INVALID$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_OPENGL_SHADER_VERTEX	opengl-bin-file.h	/^	SI_OPENGL_SHADER_VERTEX = 0,$/;"	e	enum:si_opengl_shader_binary_kind_t
+SI_SCC	isa.h	67;"	d
+SI_TABLE_ENTRY_KIND_BUFFER_DESC	ndrange.h	/^        SI_TABLE_ENTRY_KIND_BUFFER_DESC = 1,$/;"	e	enum:si_ndrange_table_entry_kind_t
+SI_TABLE_ENTRY_KIND_IMAGE_DESC	ndrange.h	/^        SI_TABLE_ENTRY_KIND_IMAGE_DESC,$/;"	e	enum:si_ndrange_table_entry_kind_t
+SI_TABLE_ENTRY_KIND_SAMPLER_DESC	ndrange.h	/^        SI_TABLE_ENTRY_KIND_SAMPLER_DESC$/;"	e	enum:si_ndrange_table_entry_kind_t
+SI_VCC	isa.h	63;"	d
+SI_VCCZ	isa.h	64;"	d
+SOURCES	Makefile	/^SOURCES = $(libemu_a_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+VERSION	Makefile	/^VERSION = 4.2$/;"	m
+YACC	Makefile	/^YACC = bison -y$/;"	m
+YFLAGS	Makefile	/^YFLAGS = $/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/src\/arch\/southern-islands\/emu$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/src\/arch\/southern-islands\/emu$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+add_tid_enable	emu.h	/^	unsigned int add_tid_enable  : 1;    \/*      119  *\/$/;"	m	struct:si_buffer_desc_t
+addr	emu.h	/^	unsigned long long addr : 48;$/;"	m	struct:si_mem_ptr_t
+addr	work-item.h	/^	unsigned int addr;$/;"	m	struct:si_mem_access_t
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__v_AR_	Makefile	/^am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_AR_0	Makefile	/^am__v_AR_0 = @echo "  AR    " $@;$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libemu_a_OBJECTS	Makefile	/^am_libemu_a_OBJECTS = emu.$(OBJEXT) isa.$(OBJEXT) machine.$(OBJEXT) \\$/;"	m
+aniso_bias	emu.h	/^	unsigned int aniso_bias         : 6;    \/*   [26:21] *\/$/;"	m	struct:si_sampler_desc_t
+aniso_thresh	emu.h	/^	unsigned int aniso_thresh       : 3;    \/*   [18:16] *\/$/;"	m	struct:si_sampler_desc_t
+at_barrier	wavefront.h	/^	unsigned int at_barrier : 1;  \/\/ Used for emu synchronization$/;"	m	struct:si_wavefront_t
+attributeIndex	opengl-bin-file.h	/^	unsigned int attributeIndex;$/;"	m	struct:si_opengl_bin_enc_inputs_t
+barrier_inst	wavefront.h	/^	unsigned int barrier_inst : 1;$/;"	m	struct:si_wavefront_t
+base_addr	emu.h	/^	unsigned long long base_addr : 40;   \/*    [39:0] *\/$/;"	m	struct:si_image_desc_t
+base_addr	emu.h	/^	unsigned long long base_addr : 48;   \/*    [47:0] *\/$/;"	m	struct:si_buffer_desc_t
+base_array	emu.h	/^	unsigned int base_array      : 13;   \/* [172:160] *\/$/;"	m	struct:si_image_desc_t
+base_level	emu.h	/^	unsigned int base_level      : 4;    \/* [111:108] *\/$/;"	m	struct:si_image_desc_t
+binary	opengl-bin-file.h	/^	struct elf_file_t *binary;$/;"	m	struct:si_opengl_program_binary_t	typeref:struct:si_opengl_program_binary_t::elf_file_t
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+border_color_ptr	emu.h	/^	unsigned int border_color_ptr   : 12;   \/*  [107:96] *\/$/;"	m	struct:si_sampler_desc_t
+border_color_type	emu.h	/^	unsigned int border_color_type  : 2;    \/* [127:126] *\/$/;"	m	struct:si_sampler_desc_t
+branch_inst_count	emu.h	/^	long long branch_inst_count;  \/* Branch instructions executed *\/$/;"	v
+branch_inst_count	wavefront.h	/^	long long branch_inst_count;$/;"	m	struct:si_wavefront_t
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+cache_swizzle	emu.h	/^	unsigned int cache_swizzle   : 1;    \/*       62  *\/$/;"	m	struct:si_buffer_desc_t
+cb0	ndrange.h	/^	unsigned int cb0;$/;"	m	struct:si_ndrange_t
+cb1	ndrange.h	/^	unsigned int cb1;$/;"	m	struct:si_ndrange_t
+chan	isa.h	/^	int gpr, rel, chan, index_mode, write_mask;$/;"	m	struct:si_isa_write_task_t
+clamp_x	emu.h	/^	unsigned int clamp_x            : 3;    \/*     [2:0] *\/$/;"	m	struct:si_sampler_desc_t
+clamp_y	emu.h	/^	unsigned int clamp_y            : 3;    \/*     [5:3] *\/$/;"	m	struct:si_sampler_desc_t
+clamp_z	emu.h	/^	unsigned int clamp_z            : 3;    \/*     [8:6] *\/$/;"	m	struct:si_sampler_desc_t
+cond	isa.h	/^	int cond;$/;"	m	struct:si_isa_write_task_t
+const_buf_table	ndrange.h	/^	unsigned int const_buf_table;$/;"	m	struct:si_ndrange_t
+const_buf_table_entries	ndrange.h	/^		const_buf_table_entries[SI_EMU_MAX_NUM_CONST_BUFS];$/;"	m	struct:si_ndrange_t	typeref:struct:si_ndrange_t::si_ndrange_table_entry_t
+count	opengl-bin-file.h	/^	unsigned int count;$/;"	m	struct:si_opengl_bin_enc_semantic_mapping_t
+data_fmt	emu.h	/^	unsigned int data_fmt        : 6;    \/*   [57:52] *\/$/;"	m	struct:si_image_desc_t
+data_format	emu.h	/^	unsigned int data_format     : 4;    \/* [114:111] *\/$/;"	m	struct:si_buffer_desc_t
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depth	emu.h	/^	unsigned int depth           : 13;   \/* [140:128] *\/$/;"	m	struct:si_image_desc_t
+depth_cmp_func	emu.h	/^	unsigned int depth_cmp_func     : 3;    \/*   [14:12] *\/$/;"	m	struct:si_sampler_desc_t
+disable_cube_wrap	emu.h	/^	unsigned int disable_cube_wrap  : 1;    \/*       28  *\/$/;"	m	struct:si_sampler_desc_t
+disable_lsb_cell	emu.h	/^	unsigned int disable_lsb_cell   : 1;    \/*       93  *\/ $/;"	m	struct:si_sampler_desc_t
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dst_sel_w	emu.h	/^	unsigned int dst_sel_w       : 3;    \/* [107:105] *\/$/;"	m	struct:si_buffer_desc_t
+dst_sel_w	emu.h	/^	unsigned int dst_sel_w       : 3;    \/* [107:105] *\/$/;"	m	struct:si_image_desc_t
+dst_sel_x	emu.h	/^	unsigned int dst_sel_x       : 3;    \/*   [98:96] *\/$/;"	m	struct:si_buffer_desc_t
+dst_sel_x	emu.h	/^	unsigned int dst_sel_x       : 3;    \/*   [98:96] *\/$/;"	m	struct:si_image_desc_t
+dst_sel_y	emu.h	/^	unsigned int dst_sel_y       : 3;    \/*  [101:99] *\/$/;"	m	struct:si_buffer_desc_t
+dst_sel_y	emu.h	/^	unsigned int dst_sel_y       : 3;    \/*  [101:99] *\/$/;"	m	struct:si_image_desc_t
+dst_sel_z	emu.h	/^	unsigned int dst_sel_z       : 3;    \/* [104:102] *\/$/;"	m	struct:si_buffer_desc_t
+dst_sel_z	emu.h	/^	unsigned int dst_sel_z       : 3;    \/* [104:102] *\/$/;"	m	struct:si_image_desc_t
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+elem_size	emu.h	/^	unsigned int elem_size       : 2;    \/* [116:115] *\/$/;"	m	struct:si_buffer_desc_t
+emu_inst_count	wavefront.h	/^	long long emu_inst_count;  \/* Total emulated instructions *\/$/;"	m	struct:si_wavefront_t
+emu_time_end	wavefront.h	/^	long long emu_time_end;$/;"	m	struct:si_wavefront_t
+emu_time_start	wavefront.h	/^	long long emu_time_start;$/;"	m	struct:si_wavefront_t
+err_si_isa_note	machine.c	/^char *err_si_isa_note =$/;"	v
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+export_inst_count	emu.h	/^	long long export_inst_count; \/* Export instructions executed *\/$/;"	v
+export_inst_count	wavefront.h	/^	long long export_inst_count;$/;"	m	struct:si_wavefront_t
+filter_mode	emu.h	/^	unsigned int filter_mode        : 2;    \/*   [30:29] *\/ $/;"	m	struct:si_sampler_desc_t
+finished	wavefront.h	/^	unsigned int finished : 1;$/;"	m	struct:si_wavefront_t
+finished_emu	work-group.h	/^	int finished_emu;$/;"	m	struct:si_work_group_t
+finished_timing	work-group.h	/^	int finished_timing;$/;"	m	struct:si_work_group_t
+force_degamma	emu.h	/^	unsigned int force_degamma      : 1;    \/*       20  *\/$/;"	m	struct:si_sampler_desc_t
+force_unnorm	emu.h	/^	unsigned int force_unnorm       : 1;    \/*       15  *\/$/;"	m	struct:si_sampler_desc_t
+fs_buffer_initialized	ndrange.h	/^	int fs_buffer_initialized;$/;"	m	struct:si_ndrange_t
+fs_buffer_ptr	ndrange.h	/^	unsigned int fs_buffer_ptr;$/;"	m	struct:si_ndrange_t
+fs_buffer_size	ndrange.h	/^	unsigned int fs_buffer_size;$/;"	m	struct:si_ndrange_t
+global_mem	emu.h	/^	struct mem_t *global_mem; \/* will point to video_mem or shared_mem *\/$/;"	v	typeref:struct:mem_t
+global_mem_access_addr	work-item.h	/^	unsigned int global_mem_access_addr;$/;"	m	struct:si_work_item_t
+global_mem_access_size	work-item.h	/^	unsigned int global_mem_access_size;$/;"	m	struct:si_work_item_t
+global_mem_inst_count	wavefront.h	/^	long long global_mem_inst_count;$/;"	m	struct:si_wavefront_t
+global_size	ndrange.h	/^	unsigned int global_size;$/;"	m	struct:si_ndrange_t
+global_size3	ndrange.h	/^	unsigned int global_size3[3];  \/* Total number of work_items *\/$/;"	m	struct:si_ndrange_t
+gpr	isa.h	/^	int gpr, rel, chan, index_mode, write_mask;$/;"	m	struct:si_isa_write_task_t
+group_count	ndrange.h	/^	unsigned int group_count;$/;"	m	struct:si_ndrange_t
+group_count3	ndrange.h	/^	unsigned int group_count3[3];  \/* Number of work_item groups *\/$/;"	m	struct:si_ndrange_t
+hash_enable	emu.h	/^	unsigned int hash_enable     : 1;    \/*      121  *\/$/;"	m	struct:si_buffer_desc_t
+heap	emu.h	/^	unsigned int heap            : 1;    \/*      122  *\/$/;"	m	struct:si_buffer_desc_t
+height	emu.h	/^	unsigned int height          : 14;   \/*   [91:78] *\/$/;"	m	struct:si_image_desc_t
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+iNST	machine.c	284;"	d	file:
+id	ndrange.h	/^	int id;  \/* Sequential ND-Range ID (given by si_emu->ndrange_count) *\/$/;"	m	struct:si_ndrange_t
+id	wavefront.h	/^	int id;$/;"	m	struct:si_wavefront_t
+id	work-group.h	/^	int id;  \/* Group ID *\/$/;"	m	struct:si_work_group_t
+id	work-item.h	/^	int id;  \/* global ID *\/$/;"	m	struct:si_work_item_t
+id_3d	work-group.h	/^	int id_3d[3];  \/* 3-dimensional Group ID *\/$/;"	m	struct:si_work_group_t
+id_3d	work-item.h	/^	int id_3d[3];  \/* global 3D IDs *\/$/;"	m	struct:si_work_item_t
+id_in_compute_unit	wavefront.h	/^	int id_in_compute_unit;$/;"	m	struct:si_wavefront_t
+id_in_compute_unit	work-group.h	/^	int id_in_compute_unit;$/;"	m	struct:si_work_group_t
+id_in_wavefront	work-item.h	/^	int id_in_wavefront;$/;"	m	struct:si_work_item_t
+id_in_work_group	work-item.h	/^	int id_in_work_group;  \/* local ID *\/$/;"	m	struct:si_work_item_t
+id_in_work_group_3d	work-item.h	/^	int id_in_work_group_3d[3];  \/* local 3D IDs *\/$/;"	m	struct:si_work_item_t
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+index_mode	isa.h	/^	int gpr, rel, chan, index_mode, write_mask;$/;"	m	struct:si_isa_write_task_t
+index_stride	emu.h	/^	unsigned int index_stride    : 2;    \/* [118:117] *\/$/;"	m	struct:si_buffer_desc_t
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+input_list	opengl-bin-file.h	/^	struct list_t *input_list; \/* - Equivalent to arg_list in OpenCL, elements of type si_input_t *\/$/;"	m	struct:si_opengl_bin_enc_dict_entry_t	typeref:struct:si_opengl_bin_enc_dict_entry_t::list_t
+inst	isa.h	/^	struct si_inst_t *inst;$/;"	m	struct:si_isa_write_task_t	typeref:struct:si_isa_write_task_t::si_inst_t
+inst	wavefront.h	/^	struct si_inst_t inst;$/;"	m	struct:si_wavefront_t	typeref:struct:si_wavefront_t::si_inst_t
+inst_buffer	ndrange.h	/^	void *inst_buffer;$/;"	m	struct:si_ndrange_t
+inst_buffer_size	ndrange.h	/^	unsigned int inst_buffer_size;$/;"	m	struct:si_ndrange_t
+inst_count	wavefront.h	/^	long long inst_count;  \/* Total number of instructions *\/$/;"	m	struct:si_wavefront_t
+inst_histogram	ndrange.h	/^	unsigned int *inst_histogram;$/;"	m	struct:si_ndrange_t
+inst_size	wavefront.h	/^	int inst_size;$/;"	m	struct:si_wavefront_t
+install_sh	Makefile	/^install_sh = ${SHELL} \/scratch.1\/vinay\/miaow_orig\/src\/sw\/multi2sim-4.2\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+interlaced	emu.h	/^	unsigned int interlaced      : 1;    \/*       95  *\/$/;"	m	struct:si_image_desc_t
+kernel	ndrange.h	/^	struct opencl_si_kernel_t *kernel; \/\/ Only for reading the kernel data and writing from unit_test_config$/;"	m	struct:si_ndrange_t	typeref:struct:si_ndrange_t::opencl_si_kernel_t
+kernel_config_count	ndrange.c	/^int kernel_config_count = 0;$/;"	v
+kind	isa.h	/^	enum si_isa_write_task_kind_t kind;$/;"	m	struct:si_isa_write_task_t	typeref:enum:si_isa_write_task_t::si_isa_write_task_kind_t
+kind	ndrange.h	/^        enum si_ndrange_table_entry_kind_t kind;$/;"	m	struct:si_ndrange_table_entry_t	typeref:enum:si_ndrange_table_entry_t::si_ndrange_table_entry_kind_t
+last_array	emu.h	/^	unsigned int last_array      : 13;   \/* [185:173] *\/$/;"	m	struct:si_image_desc_t
+last_level	emu.h	/^	unsigned int last_level      : 4;    \/* [115:112] *\/$/;"	m	struct:si_image_desc_t
+lds_access_addr	work-item.h	/^	unsigned int lds_access_addr[SI_MAX_LDS_ACCESSES_PER_INST];$/;"	m	struct:si_work_item_t
+lds_access_count	work-item.h	/^	int lds_access_count;  \/* Number of LDS access by last instruction *\/$/;"	m	struct:si_work_item_t
+lds_access_size	work-item.h	/^	unsigned int lds_access_size[SI_MAX_LDS_ACCESSES_PER_INST];$/;"	m	struct:si_work_item_t
+lds_access_type	work-item.h	/^	int lds_access_type[SI_MAX_LDS_ACCESSES_PER_INST];  \/* 0-none, 1-read, 2-write *\/$/;"	m	struct:si_work_item_t
+lds_addr	isa.h	/^	unsigned int lds_addr;$/;"	m	struct:si_isa_write_task_t
+lds_inst_count	emu.h	/^	long long lds_inst_count;  \/* LDS instructions executed *\/$/;"	v
+lds_inst_count	wavefront.h	/^	long long lds_inst_count;$/;"	m	struct:si_wavefront_t
+lds_module	work-group.h	/^	struct mem_t *lds_module;$/;"	m	struct:si_work_group_t	typeref:struct:si_work_group_t::mem_t
+lds_read	wavefront.h	/^	unsigned int lds_read : 1;$/;"	m	struct:si_wavefront_t
+lds_size_used	opengl-bin-file.h	/^	int lds_size_used;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t
+lds_value	isa.h	/^	unsigned int lds_value;$/;"	m	struct:si_isa_write_task_t
+lds_value_size	isa.h	/^        size_t   lds_value_size;$/;"	m	struct:si_isa_write_task_t
+lds_write	wavefront.h	/^	unsigned int lds_write : 1;$/;"	m	struct:si_wavefront_t
+lib_LIBRARIES	Makefile	/^lib_LIBRARIES = libemu.a$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libemu_a_AR	Makefile	/^libemu_a_AR = $(AR) $(ARFLAGS)$/;"	m
+libemu_a_LIBADD	Makefile	/^libemu_a_LIBADD =$/;"	m
+libemu_a_OBJECTS	Makefile	/^libemu_a_OBJECTS = $(am_libemu_a_OBJECTS)$/;"	m
+libemu_a_SOURCES	Makefile	/^libemu_a_SOURCES = \\$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+local_mem_top	ndrange.h	/^	unsigned int local_mem_top;$/;"	m	struct:si_ndrange_t
+local_size	ndrange.h	/^	unsigned int local_size;$/;"	m	struct:si_ndrange_t
+local_size3	ndrange.h	/^	unsigned int local_size3[3];  \/* Number of work_items in a group *\/$/;"	m	struct:si_ndrange_t
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lod_bias	emu.h	/^	unsigned int lod_bias           : 14;   \/*   [77:64] *\/ $/;"	m	struct:si_sampler_desc_t
+lod_bias_sec	emu.h	/^	unsigned int lod_bias_sec       : 6;    \/*   [83:78] *\/ $/;"	m	struct:si_sampler_desc_t
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+max_aniso_ratio	emu.h	/^	unsigned int max_aniso_ratio    : 3;    \/*    [11:9] *\/$/;"	m	struct:si_sampler_desc_t
+max_lod	emu.h	/^	unsigned int max_lod            : 12;   \/*   [55:44] *\/ $/;"	m	struct:si_sampler_desc_t
+mc_coord_trunc	emu.h	/^	unsigned int mc_coord_trunc     : 1;    \/*       19  *\/$/;"	m	struct:si_sampler_desc_t
+mem_wait	wavefront.h	/^	unsigned int mem_wait : 1;$/;"	m	struct:si_wavefront_t
+mid_lod	emu.h	/^	unsigned int mid_lod         : 12;   \/*   [51:40] *\/$/;"	m	struct:si_image_desc_t
+min_lod	emu.h	/^	unsigned int min_lod            : 12;   \/*   [43:32] *\/ $/;"	m	struct:si_sampler_desc_t
+min_lod_warn	emu.h	/^	unsigned int min_lod_warn    : 12;   \/* [203:192] *\/$/;"	m	struct:si_image_desc_t
+mip_filter	emu.h	/^	unsigned int mip_filter         : 2;    \/*   [91:90] *\/ $/;"	m	struct:si_sampler_desc_t
+mip_point_preclamp	emu.h	/^	unsigned int mip_point_preclamp : 1;    \/*       92  *\/ $/;"	m	struct:si_sampler_desc_t
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+name	opengl-bin-file.h	/^	char *name;$/;"	m	struct:si_opengl_program_binary_t
+ndrange	emu.h	/^	struct si_ndrange_t *ndrange;$/;"	v	typeref:struct:si_ndrange_t
+ndrange	work-group.h	/^	struct si_ndrange_t *ndrange;$/;"	m	struct:si_work_group_t	typeref:struct:si_work_group_t::si_ndrange_t
+ndrange_count	emu.h	/^	int ndrange_count;  \/* Number of OpenCL kernels executed *\/$/;"	v
+num_fmt	emu.h	/^	unsigned int num_fmt         : 4;    \/*   [61:58] *\/$/;"	m	struct:si_image_desc_t
+num_format	emu.h	/^	unsigned int num_format      : 3;    \/* [110:108] *\/$/;"	m	struct:si_buffer_desc_t
+num_records	emu.h	/^	unsigned int num_records     : 32;   \/*   [95:64] *\/$/;"	m	struct:si_buffer_desc_t
+num_sgpr_used	ndrange.h	/^	unsigned int num_sgpr_used;$/;"	m	struct:si_ndrange_t
+num_sgpr_used	opengl-bin-file.h	/^	int num_sgpr_used;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t
+num_vgpr_used	ndrange.h	/^	unsigned int num_vgpr_used;$/;"	m	struct:si_ndrange_t
+num_vgpr_used	opengl-bin-file.h	/^	int num_vgpr_used;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pc	wavefront.h	/^	unsigned int pc;$/;"	m	struct:si_wavefront_t
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+perf_mip	emu.h	/^	unsigned int perf_mip           : 4;    \/*   [59:56] *\/ $/;"	m	struct:si_sampler_desc_t
+perf_mod	emu.h	/^	unsigned int perf_mod        : 3;    \/*   [94:92] *\/$/;"	m	struct:si_image_desc_t
+perf_z	emu.h	/^	unsigned int perf_z             : 4;    \/*   [63:60] *\/ $/;"	m	struct:si_sampler_desc_t
+pitch	emu.h	/^	unsigned int pitch           : 14;   \/* [154:141] *\/$/;"	m	struct:si_image_desc_t
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/multi2sim$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/multi2sim$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/multi2sim$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/multi2sim$/;"	m
+pos0_export_format	opengl-bin-file.h	/^	unsigned int pos0_export_format 	: 8;$/;"	m	struct:si_opengl_spi_shader_pos_format
+pos1_export_format	opengl-bin-file.h	/^	unsigned int pos1_export_format 	: 8;$/;"	m	struct:si_opengl_spi_shader_pos_format
+pos2_export_format	opengl-bin-file.h	/^	unsigned int pos2_export_format 	: 8;$/;"	m	struct:si_opengl_spi_shader_pos_format
+pos3_export_format	opengl-bin-file.h	/^	unsigned int pos3_export_format 	: 8;	$/;"	m	struct:si_opengl_spi_shader_pos_format
+pow2pad	emu.h	/^	unsigned int pow2pad         : 1;    \/*      121  *\/$/;"	m	struct:si_image_desc_t
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+rel	isa.h	/^	int gpr, rel, chan, index_mode, write_mask;$/;"	m	struct:si_isa_write_task_t
+reserved	emu.h	/^	unsigned int reserved        : 1;    \/*      120  *\/$/;"	m	struct:si_buffer_desc_t
+resource_table	ndrange.h	/^	unsigned int resource_table;$/;"	m	struct:si_ndrange_t
+resource_table_entries	ndrange.h	/^		resource_table_entries[SI_EMU_MAX_NUM_RESOURCES];$/;"	m	struct:si_ndrange_t	typeref:struct:si_ndrange_t::si_ndrange_table_entry_t
+running_work_groups	emu.h	/^	struct list_t *running_work_groups;$/;"	v	typeref:struct:list_t
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scalar_alu_inst_count	emu.h	/^	long long scalar_alu_inst_count;  \/* Scalar ALU instructions executed *\/$/;"	v
+scalar_alu_inst_count	wavefront.h	/^	long long scalar_alu_inst_count;$/;"	m	struct:si_wavefront_t
+scalar_mem_inst_count	emu.h	/^	long long scalar_mem_inst_count;  \/* Scalar mem instructions executed *\/$/;"	v
+scalar_mem_inst_count	wavefront.h	/^	long long scalar_mem_inst_count;$/;"	m	struct:si_wavefront_t
+scalar_mem_read	wavefront.h	/^	unsigned int scalar_mem_read : 1;$/;"	m	struct:si_wavefront_t
+scalar_work_item	wavefront.h	/^	struct si_work_item_t *scalar_work_item;$/;"	m	struct:si_wavefront_t	typeref:struct:si_wavefront_t::si_work_item_t
+semanticMappingCount	opengl-bin-file.h	/^	unsigned int semanticMappingCount;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t
+semanticsMapping	opengl-bin-file.h	/^	struct si_opengl_bin_enc_semantic_mapping_t semanticsMapping[MAX_SEMANTICS_MAPPINGS];$/;"	m	struct:si_opengl_bin_enc_dict_entry_t	typeref:struct:si_opengl_bin_enc_dict_entry_t::si_opengl_bin_enc_semantic_mapping_t
+shader_elf	opengl-bin-file.h	/^	struct elf_file_t *shader_elf;$/;"	m	struct:si_opengl_shader_binary_t	typeref:struct:si_opengl_shader_binary_t::elf_file_t
+shader_enc_dict	opengl-bin-file.h	/^	struct si_opengl_bin_enc_dict_entry_t *shader_enc_dict;$/;"	m	struct:si_opengl_shader_binary_t	typeref:struct:si_opengl_shader_binary_t::si_opengl_bin_enc_dict_entry_t
+shader_isa	opengl-bin-file.h	/^	struct elf_buffer_t *shader_isa;$/;"	m	struct:si_opengl_shader_binary_t	typeref:struct:si_opengl_shader_binary_t::elf_buffer_t
+shader_kind	opengl-bin-file.h	/^	enum si_opengl_shader_binary_kind_t shader_kind;$/;"	m	struct:si_opengl_shader_binary_t	typeref:enum:si_opengl_shader_binary_t::si_opengl_shader_binary_kind_t
+shader_pgm_rsrc2_vs	opengl-bin-file.h	/^	struct si_opengl_bin_spi_shader_pgm_rsrc2_vs_t *shader_pgm_rsrc2_vs;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t	typeref:struct:si_opengl_bin_enc_dict_entry_t::si_opengl_bin_spi_shader_pgm_rsrc2_vs_t
+shaders	opengl-bin-file.h	/^	struct list_t *shaders;$/;"	m	struct:si_opengl_program_binary_t	typeref:struct:si_opengl_program_binary_t::list_t
+shared_mem	emu.h	/^	struct mem_t *shared_mem; \/* shared with the CPU *\/$/;"	v	typeref:struct:mem_t
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+si_buf_desc_data_fmt_t	emu.h	/^enum si_buf_desc_data_fmt_t$/;"	g
+si_buf_desc_num_fmt_t	emu.h	/^enum si_buf_desc_num_fmt_t$/;"	g
+si_buffer_desc_t	emu.h	/^struct si_buffer_desc_t$/;"	s
+si_emu	emu.c	/^SIEmu *si_emu;$/;"	v
+si_emu_disasm	emu.c	/^void si_emu_disasm(char *path)$/;"	f
+si_emu_done	emu.c	/^void si_emu_done(void)$/;"	f
+si_emu_init	emu.c	/^void si_emu_init(void)$/;"	f
+si_emu_max_cycles	emu.c	/^long long si_emu_max_cycles = 0;$/;"	v
+si_emu_max_inst	emu.c	/^long long si_emu_max_inst = 0;$/;"	v
+si_emu_max_kernels	emu.c	/^int si_emu_max_kernels = 0;$/;"	v
+si_emu_num_mapped_const_buffers	emu.c	/^int si_emu_num_mapped_const_buffers = 2;  \/* CB0, CB1 by default *\/$/;"	v
+si_emu_opengl_binary_name	emu.c	/^char *si_emu_opengl_binary_name = "";$/;"	v
+si_emu_opengl_disasm	emu.c	/^void si_emu_opengl_disasm(char *path, int opengl_shader_index)$/;"	f
+si_emu_report_file	emu.c	/^FILE *si_emu_report_file = NULL;$/;"	v
+si_emu_report_file_name	emu.c	/^char *si_emu_report_file_name = "";$/;"	v
+si_emu_wavefront_size	emu.c	/^int si_emu_wavefront_size = 64;$/;"	v
+si_image_desc_t	emu.h	/^struct si_image_desc_t$/;"	s
+si_isa_BUFFER_ATOMIC_ADD_impl	machine.c	/^void si_isa_BUFFER_ATOMIC_ADD_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_BUFFER_LOAD_DWORD_impl	machine.c	/^void si_isa_BUFFER_LOAD_DWORD_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_BUFFER_LOAD_SBYTE_impl	machine.c	/^void si_isa_BUFFER_LOAD_SBYTE_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_BUFFER_STORE_BYTE_impl	machine.c	/^void si_isa_BUFFER_STORE_BYTE_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_BUFFER_STORE_DWORD_impl	machine.c	/^void si_isa_BUFFER_STORE_DWORD_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_INC_U32_impl	machine.c	/^void si_isa_DS_INC_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_READ2_B32_impl	machine.c	/^void si_isa_DS_READ2_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_READ_B32_impl	machine.c	/^void si_isa_DS_READ_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_READ_I16_impl	machine.c	/^void si_isa_DS_READ_I16_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_READ_I8_impl	machine.c	/^void si_isa_DS_READ_I8_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_READ_U16_impl	machine.c	/^void si_isa_DS_READ_U16_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_READ_U8_impl	machine.c	/^void si_isa_DS_READ_U8_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_WRITE2_B32_impl	machine.c	/^void si_isa_DS_WRITE2_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_WRITE_B16_impl	machine.c	/^void si_isa_DS_WRITE_B16_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_WRITE_B32_impl	machine.c	/^void si_isa_DS_WRITE_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_DS_WRITE_B8_impl	machine.c	/^void si_isa_DS_WRITE_B8_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_EXPORT_impl	machine.c	/^void si_isa_EXPORT_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_IMAGE_SAMPLE_impl	machine.c	/^void si_isa_IMAGE_SAMPLE_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_IMAGE_STORE_impl	machine.c	/^void si_isa_IMAGE_STORE_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_ADDK_I32_impl	machine.c	/^void si_isa_S_ADDK_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_ADD_I32_impl	machine.c	/^void si_isa_S_ADD_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_ADD_U32_impl	machine.c	/^void si_isa_S_ADD_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_ANDN2_B64_impl	machine.c	/^void si_isa_S_ANDN2_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_AND_B32_impl	machine.c	/^void si_isa_S_AND_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_AND_B64_impl	machine.c	/^void si_isa_S_AND_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_AND_SAVEEXEC_B64_impl	machine.c	/^void si_isa_S_AND_SAVEEXEC_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_ASHR_I32_impl	machine.c	/^void si_isa_S_ASHR_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_BARRIER_impl	machine.c	/^void si_isa_S_BARRIER_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_BFE_I32_impl	machine.c	/^void si_isa_S_BFE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_BRANCH_impl	machine.c	/^void si_isa_S_BRANCH_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_BUFFER_LOAD_DWORDX2_impl	machine.c	/^void si_isa_S_BUFFER_LOAD_DWORDX2_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_BUFFER_LOAD_DWORDX4_impl	machine.c	/^void si_isa_S_BUFFER_LOAD_DWORDX4_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_BUFFER_LOAD_DWORD_impl	machine.c	/^void si_isa_S_BUFFER_LOAD_DWORD_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CBRANCH_EXECNZ_impl	machine.c	/^void si_isa_S_CBRANCH_EXECNZ_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CBRANCH_EXECZ_impl	machine.c	/^void si_isa_S_CBRANCH_EXECZ_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CBRANCH_SCC0_impl	machine.c	/^void si_isa_S_CBRANCH_SCC0_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CBRANCH_SCC1_impl	machine.c	/^void si_isa_S_CBRANCH_SCC1_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CBRANCH_VCCNZ_impl	machine.c	/^void si_isa_S_CBRANCH_VCCNZ_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CBRANCH_VCCZ_impl	machine.c	/^void si_isa_S_CBRANCH_VCCZ_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMPK_LE_U32_impl	machine.c	/^void si_isa_S_CMPK_LE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_EQ_I32_impl	machine.c	/^void si_isa_S_CMP_EQ_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_GE_I32_impl	machine.c	/^void si_isa_S_CMP_GE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_GE_U32_impl	machine.c	/^void si_isa_S_CMP_GE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_GT_I32_impl	machine.c	/^void si_isa_S_CMP_GT_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_GT_U32_impl	machine.c	/^void si_isa_S_CMP_GT_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_LE_I32_impl	machine.c	/^void si_isa_S_CMP_LE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_LE_U32_impl	machine.c	/^void si_isa_S_CMP_LE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_LG_I32_impl	machine.c	/^void si_isa_S_CMP_LG_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CMP_LT_I32_impl	machine.c	/^void si_isa_S_CMP_LT_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_CSELECT_B32_impl	machine.c	/^void si_isa_S_CSELECT_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_ENDPGM_impl	machine.c	/^void si_isa_S_ENDPGM_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_LOAD_DWORDX2_impl	machine.c	/^void si_isa_S_LOAD_DWORDX2_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_LOAD_DWORDX4_impl	machine.c	/^void si_isa_S_LOAD_DWORDX4_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_LOAD_DWORDX8_impl	machine.c	/^void si_isa_S_LOAD_DWORDX8_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_LSHL_B32_impl	machine.c	/^void si_isa_S_LSHL_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_LSHR_B32_impl	machine.c	/^void si_isa_S_LSHR_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MAX_I32_impl	machine.c	/^void si_isa_S_MAX_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MAX_U32_impl	machine.c	/^void si_isa_S_MAX_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MIN_U32_impl	machine.c	/^void si_isa_S_MIN_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MOVK_I32_impl	machine.c	/^void si_isa_S_MOVK_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MOV_B32_impl	machine.c	/^void si_isa_S_MOV_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MOV_B64_impl	machine.c	/^void si_isa_S_MOV_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MULK_I32_impl	machine.c	/^void si_isa_S_MULK_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_MUL_I32_impl	machine.c	/^void si_isa_S_MUL_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_NAND_B64_impl	machine.c	/^void si_isa_S_NAND_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_NOT_B32_impl	machine.c	/^void si_isa_S_NOT_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_OR_B32_impl	machine.c	/^void si_isa_S_OR_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_OR_B64_impl	machine.c	/^void si_isa_S_OR_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_SUB_I32_impl	machine.c	/^void si_isa_S_SUB_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_SWAPPC_B64_impl	machine.c	/^void si_isa_S_SWAPPC_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_WAITCNT_impl	machine.c	/^void si_isa_S_WAITCNT_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_S_XOR_B64_impl	machine.c	/^void si_isa_S_XOR_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_TBUFFER_LOAD_FORMAT_XYZW_impl	machine.c	/^void si_isa_TBUFFER_LOAD_FORMAT_XYZW_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_TBUFFER_LOAD_FORMAT_XY_impl	machine.c	/^void si_isa_TBUFFER_LOAD_FORMAT_XY_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_TBUFFER_LOAD_FORMAT_X_impl	machine.c	/^void si_isa_TBUFFER_LOAD_FORMAT_X_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_TBUFFER_STORE_FORMAT_XYZW_impl	machine.c	/^void si_isa_TBUFFER_STORE_FORMAT_XYZW_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_TBUFFER_STORE_FORMAT_XY_impl	machine.c	/^void si_isa_TBUFFER_STORE_FORMAT_XY_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_TBUFFER_STORE_FORMAT_X_impl	machine.c	/^void si_isa_TBUFFER_STORE_FORMAT_X_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ADDC_U32_VOP3b_impl	machine.c	/^void si_isa_V_ADDC_U32_VOP3b_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ADD_F32_VOP3a_impl	machine.c	/^void si_isa_V_ADD_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ADD_F32_impl	machine.c	/^void si_isa_V_ADD_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ADD_F64_impl	machine.c	/^void si_isa_V_ADD_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ADD_I32_impl	machine.c	/^void si_isa_V_ADD_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ALIGNBIT_B32_impl	machine.c	/^void si_isa_V_ALIGNBIT_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_AND_B32_impl	machine.c	/^void si_isa_V_AND_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_ASHRREV_I32_impl	machine.c	/^void si_isa_V_ASHRREV_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_BFE_I32_impl	machine.c	/^void si_isa_V_BFE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_BFE_U32_impl	machine.c	/^void si_isa_V_BFE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_BFI_B32_impl	machine.c	/^void si_isa_V_BFI_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_BFM_B32_impl	machine.c	/^void si_isa_V_BFM_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMPX_EQ_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMPX_EQ_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_CLASS_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_CLASS_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_CLASS_F64_impl	machine.c	/^void si_isa_V_CMP_CLASS_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_EQ_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_EQ_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_EQ_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_EQ_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_EQ_F64_impl	machine.c	/^void si_isa_V_CMP_EQ_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_EQ_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_EQ_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_EQ_I32_impl	machine.c	/^void si_isa_V_CMP_EQ_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_EQ_U32_impl	machine.c	/^void si_isa_V_CMP_EQ_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GE_F32_impl	machine.c	/^void si_isa_V_CMP_GE_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GE_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GE_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GE_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GE_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GE_I32_impl	machine.c	/^void si_isa_V_CMP_GE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GE_U32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GE_U32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GE_U32_impl	machine.c	/^void si_isa_V_CMP_GE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GT_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_F32_impl	machine.c	/^void si_isa_V_CMP_GT_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GT_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_F64_impl	machine.c	/^void si_isa_V_CMP_GT_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GT_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_I32_impl	machine.c	/^void si_isa_V_CMP_GT_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_U32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_GT_U32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_GT_U32_impl	machine.c	/^void si_isa_V_CMP_GT_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LE_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LE_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_F64_impl	machine.c	/^void si_isa_V_CMP_LE_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LE_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_I32_impl	machine.c	/^void si_isa_V_CMP_LE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_U32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LE_U32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LE_U32_impl	machine.c	/^void si_isa_V_CMP_LE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LG_U32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LG_U32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LT_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_F32_impl	machine.c	/^void si_isa_V_CMP_LT_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LT_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_F64_impl	machine.c	/^void si_isa_V_CMP_LT_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LT_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_I32_impl	machine.c	/^void si_isa_V_CMP_LT_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_U32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LT_U32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_U32_impl	machine.c	/^void si_isa_V_CMP_LT_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_LT_U64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_LT_U64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NEQ_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_NEQ_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NEQ_F32_impl	machine.c	/^void si_isa_V_CMP_NEQ_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NEQ_F64_impl	machine.c	/^void si_isa_V_CMP_NEQ_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NE_I32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_NE_I32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NE_I32_impl	machine.c	/^void si_isa_V_CMP_NE_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NE_U32_impl	machine.c	/^void si_isa_V_CMP_NE_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NGE_F64_impl	machine.c	/^void si_isa_V_CMP_NGE_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NGT_F32_impl	machine.c	/^void si_isa_V_CMP_NGT_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NLE_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_NLE_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NLT_F32_VOP3a_impl	machine.c	/^void si_isa_V_CMP_NLT_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_NLT_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_NLT_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CMP_OP16_F64_VOP3a_impl	machine.c	/^void si_isa_V_CMP_OP16_F64_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CNDMASK_B32_VOP3a_impl	machine.c	/^void si_isa_V_CNDMASK_B32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CNDMASK_B32_impl	machine.c	/^void si_isa_V_CNDMASK_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_COS_F32_impl	machine.c	/^void si_isa_V_COS_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_F32_F64_impl	machine.c	/^void si_isa_V_CVT_F32_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_F32_I32_impl	machine.c	/^void si_isa_V_CVT_F32_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_F32_U32_impl	machine.c	/^void si_isa_V_CVT_F32_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_F64_F32_impl	machine.c	/^void si_isa_V_CVT_F64_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_F64_I32_impl	machine.c	/^void si_isa_V_CVT_F64_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_F64_U32_impl	machine.c	/^void si_isa_V_CVT_F64_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_I32_F32_impl	machine.c	/^void si_isa_V_CVT_I32_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_I32_F64_impl	machine.c	/^void si_isa_V_CVT_I32_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_PKRTZ_F16_F32_impl	machine.c	/^void si_isa_V_CVT_PKRTZ_F16_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_CVT_U32_F32_impl	machine.c	/^void si_isa_V_CVT_U32_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_DIV_FIXUP_F64_impl	machine.c	/^void si_isa_V_DIV_FIXUP_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_DIV_FMAS_F64_impl	machine.c	/^void si_isa_V_DIV_FMAS_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_DIV_SCALE_F64_impl	machine.c	/^void si_isa_V_DIV_SCALE_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_FFBH_U32_impl	machine.c	/^void si_isa_V_FFBH_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_FLOOR_F32_impl	machine.c	/^void si_isa_V_FLOOR_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_FMA_F32_impl	machine.c	/^void si_isa_V_FMA_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_FMA_F64_impl	machine.c	/^void si_isa_V_FMA_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_FRACT_F32_VOP3a_impl	machine.c	/^void si_isa_V_FRACT_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_FRACT_F64_impl	machine.c	/^void si_isa_V_FRACT_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_INTERP_MOV_F32_impl	machine.c	/^void si_isa_V_INTERP_MOV_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_INTERP_P1_F32_impl	machine.c	/^void si_isa_V_INTERP_P1_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_INTERP_P2_F32_impl	machine.c	/^void si_isa_V_INTERP_P2_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_LDEXP_F64_impl	machine.c	/^void si_isa_V_LDEXP_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_LOG_F32_impl	machine.c	/^void si_isa_V_LOG_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_LSHLREV_B32_impl	machine.c	/^void si_isa_V_LSHLREV_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_LSHL_B32_impl	machine.c	/^void si_isa_V_LSHL_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_LSHRREV_B32_impl	machine.c	/^void si_isa_V_LSHRREV_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_LSHR_B64_impl	machine.c	/^void si_isa_V_LSHR_B64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAC_F32_impl	machine.c	/^void si_isa_V_MAC_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAC_LEGACY_F32_impl	machine.c	/^void si_isa_V_MAC_LEGACY_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MADMK_F32_impl	machine.c	/^void si_isa_V_MADMK_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAD_F32_impl	machine.c	/^void si_isa_V_MAD_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAD_U32_U24_impl	machine.c	/^void si_isa_V_MAD_U32_U24_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAX_F32_VOP3a_impl	machine.c	/^void si_isa_V_MAX_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAX_F32_impl	machine.c	/^void si_isa_V_MAX_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAX_F64_impl	machine.c	/^void si_isa_V_MAX_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAX_I32_impl	machine.c	/^void si_isa_V_MAX_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MAX_U32_impl	machine.c	/^void si_isa_V_MAX_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MED3_I32_impl	machine.c	/^void si_isa_V_MED3_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MIN_F32_impl	machine.c	/^void si_isa_V_MIN_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MIN_F64_impl	machine.c	/^void si_isa_V_MIN_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MIN_U32_impl	machine.c	/^void si_isa_V_MIN_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MOVRELD_B32_impl	machine.c	/^void si_isa_V_MOVRELD_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MOVRELS_B32_impl	machine.c	/^void si_isa_V_MOVRELS_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MOV_B32_impl	machine.c	/^void si_isa_V_MOV_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_F32_VOP3a_impl	machine.c	/^void si_isa_V_MUL_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_F32_impl	machine.c	/^void si_isa_V_MUL_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_F64_impl	machine.c	/^void si_isa_V_MUL_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_HI_U32_impl	machine.c	/^void si_isa_V_MUL_HI_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_I32_I24_VOP3a_impl	machine.c	/^void si_isa_V_MUL_I32_I24_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_I32_I24_impl	machine.c	/^void si_isa_V_MUL_I32_I24_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_LEGACY_F32_impl	machine.c	/^void si_isa_V_MUL_LEGACY_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_LO_I32_impl	machine.c	/^void si_isa_V_MUL_LO_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_MUL_LO_U32_impl	machine.c	/^void si_isa_V_MUL_LO_U32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_NOP_impl	machine.c	/^void si_isa_V_NOP_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_NOT_B32_impl	machine.c	/^void si_isa_V_NOT_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_OR_B32_impl	machine.c	/^void si_isa_V_OR_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_RCP_F32_impl	machine.c	/^void si_isa_V_RCP_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_RCP_F64_impl	machine.c	/^void si_isa_V_RCP_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_READFIRSTLANE_B32_impl	machine.c	/^void si_isa_V_READFIRSTLANE_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_RSQ_F64_impl	machine.c	/^void si_isa_V_RSQ_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SIN_F32_impl	machine.c	/^void si_isa_V_SIN_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SQRT_F32_impl	machine.c	/^void si_isa_V_SQRT_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SUBREV_F32_VOP3a_impl	machine.c	/^void si_isa_V_SUBREV_F32_VOP3a_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SUBREV_F32_impl	machine.c	/^void si_isa_V_SUBREV_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SUBREV_I32_impl	machine.c	/^void si_isa_V_SUBREV_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SUB_F32_impl	machine.c	/^void si_isa_V_SUB_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_SUB_I32_impl	machine.c	/^void si_isa_V_SUB_I32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_TRIG_PREOP_F64_impl	machine.c	/^void si_isa_V_TRIG_PREOP_F64_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_TRUNC_F32_impl	machine.c	/^void si_isa_V_TRUNC_F32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_V_XOR_B32_impl	machine.c	/^void si_isa_V_XOR_B32_impl(struct si_work_item_t *work_item,$/;"	f
+si_isa_bitmask_sreg	isa.c	/^void si_isa_bitmask_sreg(struct si_work_item_t *work_item, int sreg, $/;"	f
+si_isa_const_mem_allocate	isa.c	/^unsigned int si_isa_const_mem_allocate(unsigned int size)$/;"	f
+si_isa_debug	isa.h	71;"	d
+si_isa_debug_category	isa.c	/^int si_isa_debug_category;$/;"	v
+si_isa_done	isa.c	/^void si_isa_done()$/;"	f
+si_isa_get_elem_size	isa.c	/^int si_isa_get_elem_size(int data_format)$/;"	f
+si_isa_get_num_elems	isa.c	/^int si_isa_get_num_elems(int data_format)$/;"	f
+si_isa_init	isa.c	/^void si_isa_init()$/;"	f
+si_isa_inst_func	isa.c	/^si_isa_inst_func_t *si_isa_inst_func;$/;"	v
+si_isa_inst_func_t	isa.h	/^typedef void (*si_isa_inst_func_t)(struct si_work_item_t *work_item, struct si_inst_t *inst);$/;"	t
+si_isa_read_bitmask_sreg	isa.c	/^int si_isa_read_bitmask_sreg(struct si_work_item_t *work_item, int sreg)$/;"	f
+si_isa_read_buf_res	isa.c	/^void si_isa_read_buf_res(struct si_work_item_t *work_item, $/;"	f
+si_isa_read_mem_ptr	isa.c	/^void si_isa_read_mem_ptr(struct si_work_item_t *work_item, $/;"	f
+si_isa_read_reg	isa.c	/^unsigned int si_isa_read_reg(struct si_work_item_t *work_item, int reg)$/;"	f
+si_isa_read_sreg	isa.c	/^unsigned int si_isa_read_sreg(struct si_work_item_t *work_item, int sreg)$/;"	f
+si_isa_read_vreg	isa.c	/^unsigned int si_isa_read_vreg(struct si_work_item_t *work_item, int vreg)$/;"	f
+si_isa_write_sreg	isa.c	/^void si_isa_write_sreg(struct si_work_item_t *work_item, int sreg, $/;"	f
+si_isa_write_task_kind_t	isa.h	/^enum si_isa_write_task_kind_t$/;"	g
+si_isa_write_task_repos	isa.c	/^struct repos_t *si_isa_write_task_repos;$/;"	v	typeref:struct:repos_t
+si_isa_write_task_t	isa.h	/^struct si_isa_write_task_t$/;"	s
+si_isa_write_vreg	isa.c	/^void si_isa_write_vreg(struct si_work_item_t *work_item, int vreg, $/;"	f
+si_mem_access_t	work-item.h	/^struct si_mem_access_t$/;"	s
+si_mem_ptr_t	emu.h	/^struct si_mem_ptr_t$/;"	s
+si_ndrange_const_buf_read	ndrange.c	/^void si_ndrange_const_buf_read(struct si_ndrange_t *ndrange, int const_buf_num, 	int offset, void *pvalue, unsigned int size)$/;"	f
+si_ndrange_const_buf_write	ndrange.c	/^void si_ndrange_const_buf_write(struct si_ndrange_t *ndrange, $/;"	f
+si_ndrange_create	ndrange.c	/^struct si_ndrange_t *si_ndrange_create()$/;"	f
+si_ndrange_free	ndrange.c	/^void si_ndrange_free(struct si_ndrange_t *ndrange)$/;"	f
+si_ndrange_insert_buffer_into_const_buf_table	ndrange.c	/^void si_ndrange_insert_buffer_into_const_buf_table(struct si_ndrange_t *ndrange,$/;"	f
+si_ndrange_insert_buffer_into_uav_table	ndrange.c	/^void si_ndrange_insert_buffer_into_uav_table(struct si_ndrange_t *ndrange,$/;"	f
+si_ndrange_insert_buffer_into_vertex_buffer_table	ndrange.c	/^void si_ndrange_insert_buffer_into_vertex_buffer_table(struct si_ndrange_t *ndrange,$/;"	f
+si_ndrange_insert_image_into_uav_table	ndrange.c	/^void si_ndrange_insert_image_into_uav_table(struct si_ndrange_t *ndrange,$/;"	f
+si_ndrange_setup_fs_mem	ndrange.c	/^void si_ndrange_setup_fs_mem(struct si_ndrange_t *ndrange, void *buf, $/;"	f
+si_ndrange_setup_inst_mem	ndrange.c	/^void si_ndrange_setup_inst_mem(struct si_ndrange_t *ndrange, void *buf, $/;"	f
+si_ndrange_setup_size	ndrange.c	/^void si_ndrange_setup_size(struct si_ndrange_t *ndrange,$/;"	f
+si_ndrange_t	ndrange.h	/^struct si_ndrange_t$/;"	s
+si_ndrange_table_entry_kind_t	ndrange.h	/^enum si_ndrange_table_entry_kind_t$/;"	g
+si_ndrange_table_entry_t	ndrange.h	/^struct si_ndrange_table_entry_t$/;"	s
+si_opengl_bin_enc_dict_entry_create	opengl-bin-file.c	/^static struct si_opengl_bin_enc_dict_entry_t *si_opengl_bin_enc_dict_entry_create()$/;"	f	file:
+si_opengl_bin_enc_dict_entry_free	opengl-bin-file.c	/^static void si_opengl_bin_enc_dict_entry_free(struct si_opengl_bin_enc_dict_entry_t *enc_dict)$/;"	f	file:
+si_opengl_bin_enc_dict_entry_t	opengl-bin-file.h	/^struct si_opengl_bin_enc_dict_entry_t$/;"	s
+si_opengl_bin_enc_inputs_t	opengl-bin-file.h	/^struct si_opengl_bin_enc_inputs_t$/;"	s
+si_opengl_bin_enc_semantic_mapping_t	opengl-bin-file.h	/^struct si_opengl_bin_enc_semantic_mapping_t$/;"	s
+si_opengl_bin_enc_user_element_create	opengl-bin-file.c	/^struct si_bin_enc_user_element_t *si_opengl_bin_enc_user_element_create()$/;"	f
+si_opengl_bin_enc_user_element_free	opengl-bin-file.c	/^void si_opengl_bin_enc_user_element_free(struct si_bin_enc_user_element_t *user_elem)$/;"	f
+si_opengl_bin_pa_cl_vs_out_cntl_t	opengl-bin-file.h	/^struct si_opengl_bin_pa_cl_vs_out_cntl_t$/;"	s
+si_opengl_bin_spi_shader_pgm_rsrc2_vs_create	opengl-bin-file.c	/^static struct si_opengl_bin_spi_shader_pgm_rsrc2_vs_t *si_opengl_bin_spi_shader_pgm_rsrc2_vs_create()$/;"	f	file:
+si_opengl_bin_spi_shader_pgm_rsrc2_vs_free	opengl-bin-file.c	/^static void si_opengl_bin_spi_shader_pgm_rsrc2_vs_free(struct si_opengl_bin_spi_shader_pgm_rsrc2_vs_t *pgm_rsrc2)$/;"	f	file:
+si_opengl_bin_spi_shader_pgm_rsrc2_vs_t	opengl-bin-file.h	/^struct si_opengl_bin_spi_shader_pgm_rsrc2_vs_t$/;"	s
+si_opengl_enc_dict_set_inputs	opengl-bin-file.c	/^static void si_opengl_enc_dict_set_inputs(struct si_opengl_shader_binary_t *shdr, struct si_opengl_bin_enc_dict_entry_t *enc_dict)$/;"	f	file:
+si_opengl_enc_dict_set_semanticMappings	opengl-bin-file.c	/^static void si_opengl_enc_dict_set_semanticMappings(struct si_opengl_shader_binary_t *shdr, struct si_opengl_bin_enc_dict_entry_t *enc_dict)$/;"	f	file:
+si_opengl_enc_dict_set_userElements	opengl-bin-file.c	/^static void si_opengl_enc_dict_set_userElements(struct si_opengl_shader_binary_t *shdr, struct si_opengl_bin_enc_dict_entry_t *enc_dict)$/;"	f	file:
+si_opengl_program_binary_create	opengl-bin-file.c	/^struct si_opengl_program_binary_t *si_opengl_program_binary_create(void *buffer_ptr, int size, char *name)$/;"	f
+si_opengl_program_binary_free	opengl-bin-file.c	/^void si_opengl_program_binary_free(struct si_opengl_program_binary_t *program_bin)$/;"	f
+si_opengl_program_binary_t	opengl-bin-file.h	/^struct si_opengl_program_binary_t$/;"	s
+si_opengl_shader_binary_create	opengl-bin-file.c	/^struct si_opengl_shader_binary_t *si_opengl_shader_binary_create(void *buffer, int size, char* name)$/;"	f
+si_opengl_shader_binary_free	opengl-bin-file.c	/^void si_opengl_shader_binary_free(struct si_opengl_shader_binary_t *shdr)$/;"	f
+si_opengl_shader_binary_get_isa_offset	opengl-bin-file.c	/^static int si_opengl_shader_binary_get_isa_offset(struct si_opengl_shader_binary_t *shdr)$/;"	f	file:
+si_opengl_shader_binary_kind_t	opengl-bin-file.h	/^enum si_opengl_shader_binary_kind_t$/;"	g
+si_opengl_shader_binary_set_enc_dict	opengl-bin-file.c	/^static void si_opengl_shader_binary_set_enc_dict(struct si_opengl_shader_binary_t *shdr)$/;"	f	file:
+si_opengl_shader_binary_set_isa	opengl-bin-file.c	/^static void si_opengl_shader_binary_set_isa(struct si_opengl_shader_binary_t *shdr)$/;"	f	file:
+si_opengl_shader_binary_set_type	opengl-bin-file.c	/^static void si_opengl_shader_binary_set_type(struct si_opengl_shader_binary_t *shdr)$/;"	f	file:
+si_opengl_shader_binary_t	opengl-bin-file.h	/^struct si_opengl_shader_binary_t$/;"	s
+si_opengl_shaders_list_create	opengl-bin-file.c	/^static struct list_t *si_opengl_shaders_list_create(struct elf_file_t *binary)$/;"	f	file:
+si_opengl_shaders_list_free	opengl-bin-file.c	/^static void si_opengl_shaders_list_free(struct list_t *shaders)$/;"	f	file:
+si_opengl_spi_shader_pos_format	opengl-bin-file.h	/^struct si_opengl_spi_shader_pos_format$/;"	s
+si_opengl_spi_vs_out_config_t	opengl-bin-file.h	/^struct si_opengl_spi_vs_out_config_t$/;"	s
+si_sampler_desc_t	emu.h	/^struct si_sampler_desc_t$/;"	s
+si_wavefront_create	wavefront.c	/^struct si_wavefront_t *si_wavefront_create(int wavefront_id, $/;"	f
+si_wavefront_execute	wavefront.c	/^void si_wavefront_execute(struct si_wavefront_t *wavefront)$/;"	f
+si_wavefront_free	wavefront.c	/^void si_wavefront_free(struct si_wavefront_t *wavefront)$/;"	f
+si_wavefront_init_sreg_with_cb	wavefront.c	/^void si_wavefront_init_sreg_with_cb(struct si_wavefront_t *wavefront, $/;"	f
+si_wavefront_init_sreg_with_cb_table	wavefront.c	/^void si_wavefront_init_sreg_with_cb_table(struct si_wavefront_t *wavefront,$/;"	f
+si_wavefront_init_sreg_with_fetch_shader	wavefront.c	/^void si_wavefront_init_sreg_with_fetch_shader(struct si_wavefront_t *wavefront, $/;"	f
+si_wavefront_init_sreg_with_uav	wavefront.c	/^void si_wavefront_init_sreg_with_uav(struct si_wavefront_t *wavefront, $/;"	f
+si_wavefront_init_sreg_with_uav_table	wavefront.c	/^void si_wavefront_init_sreg_with_uav_table(struct si_wavefront_t *wavefront, $/;"	f
+si_wavefront_init_sreg_with_value	wavefront.c	/^void si_wavefront_init_sreg_with_value(struct si_wavefront_t *wavefront, $/;"	f
+si_wavefront_init_sreg_with_vertex_buffer_table	wavefront.c	/^void si_wavefront_init_sreg_with_vertex_buffer_table(struct si_wavefront_t *wavefront, $/;"	f
+si_wavefront_sreg_init	wavefront.c	/^void si_wavefront_sreg_init(struct si_wavefront_t *wavefront)$/;"	f
+si_wavefront_t	wavefront.h	/^struct si_wavefront_t$/;"	s
+si_wavefront_work_item_active	wavefront.c	/^int si_wavefront_work_item_active(struct si_wavefront_t *wavefront, $/;"	f
+si_work_group_create	work-group.c	/^struct si_work_group_t *si_work_group_create(unsigned int work_group_id, $/;"	f
+si_work_group_free	work-group.c	/^void si_work_group_free(struct si_work_group_t *work_group)$/;"	f
+si_work_group_t	work-group.h	/^struct si_work_group_t$/;"	s
+si_work_item_create	work-item.c	/^struct si_work_item_t *si_work_item_create()$/;"	f
+si_work_item_free	work-item.c	/^void si_work_item_free(struct si_work_item_t *work_item)$/;"	f
+si_work_item_t	work-item.h	/^struct si_work_item_t$/;"	s
+size	ndrange.h	/^        unsigned int size;$/;"	m	struct:si_ndrange_table_entry_t
+size	work-item.h	/^	int size;$/;"	m	struct:si_mem_access_t
+srcdir	Makefile	/^srcdir = .$/;"	m
+sreg	wavefront.h	/^	union si_reg_t sreg[256];$/;"	m	struct:si_wavefront_t	typeref:union:si_wavefront_t::si_reg_t
+sreg_read_count	work-group.h	/^	long long int sreg_read_count;$/;"	m	struct:si_work_group_t
+sreg_write_count	work-group.h	/^	long long int sreg_write_count;$/;"	m	struct:si_work_group_t
+stack_size_used	opengl-bin-file.h	/^	int stack_size_used;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t
+startUserReg	opengl-bin-file.h	/^	unsigned int startUserReg;$/;"	m	struct:si_opengl_bin_enc_semantic_mapping_t
+stride	emu.h	/^	unsigned int stride          : 14;   \/*   [61:48] *\/$/;"	m	struct:si_buffer_desc_t
+subdir	Makefile	/^subdir = src\/arch\/southern-islands\/emu$/;"	m
+swizzle_enable	emu.h	/^	unsigned int swizzle_enable  : 1;    \/*       63  *\/$/;"	m	struct:si_buffer_desc_t
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+tiling_idx	emu.h	/^	unsigned int tiling_idx      : 5;    \/* [120:116] *\/$/;"	m	struct:si_image_desc_t
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..\/..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..\/..\/..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+trunc_coord	emu.h	/^	unsigned int trunc_coord        : 1;    \/*       27  *\/$/;"	m	struct:si_sampler_desc_t
+type	emu.h	/^	unsigned int type            : 2;    \/* [127:126] *\/$/;"	m	struct:si_buffer_desc_t
+type	emu.h	/^	unsigned int type            : 4;    \/* [127:124] *\/$/;"	m	struct:si_image_desc_t
+type	work-item.h	/^	int type;  \/* 0-none, 1-read, 2-write *\/$/;"	m	struct:si_mem_access_t
+uav_table	ndrange.h	/^	unsigned int uav_table;$/;"	m	struct:si_ndrange_t
+uav_table_entries	ndrange.h	/^		uav_table_entries[SI_EMU_MAX_NUM_UAVS];$/;"	m	struct:si_ndrange_t	typeref:struct:si_ndrange_t::si_ndrange_table_entry_t
+unknown1	opengl-bin-file.h	/^	unsigned int unknown1	: 8;$/;"	m	struct:si_opengl_bin_pa_cl_vs_out_cntl_t
+unknown1	opengl-bin-file.h	/^	unsigned int unknown1	: 8;$/;"	m	struct:si_opengl_bin_spi_shader_pgm_rsrc2_vs_t
+unknown2	opengl-bin-file.h	/^	unsigned int unknown2	: 8;$/;"	m	struct:si_opengl_bin_pa_cl_vs_out_cntl_t
+unknown2	opengl-bin-file.h	/^	unsigned int unknown2	: 8;$/;"	m	struct:si_opengl_bin_spi_shader_pgm_rsrc2_vs_t
+unknown3	opengl-bin-file.h	/^	unsigned int unknown3	: 8;$/;"	m	struct:si_opengl_bin_pa_cl_vs_out_cntl_t
+unknown3	opengl-bin-file.h	/^	unsigned int unknown3	: 8;$/;"	m	struct:si_opengl_bin_spi_shader_pgm_rsrc2_vs_t
+unknown4	opengl-bin-file.h	/^	unsigned int unknown4	: 1;$/;"	m	struct:si_opengl_bin_spi_shader_pgm_rsrc2_vs_t
+unknown4	opengl-bin-file.h	/^	unsigned int unknown4	: 8;	$/;"	m	struct:si_opengl_bin_pa_cl_vs_out_cntl_t
+unused	emu.h	/^	unsigned int unused          : 3;    \/* [125:123] *\/$/;"	m	struct:si_buffer_desc_t
+unused	emu.h	/^	unsigned int unused     : 16;$/;"	m	struct:si_mem_ptr_t
+uop_id_counter	wavefront.h	/^	int uop_id_counter;$/;"	m	struct:si_wavefront_t
+usageIndex	opengl-bin-file.h	/^	unsigned int usageIndex;$/;"	m	struct:si_opengl_bin_enc_semantic_mapping_t
+userElementCount	ndrange.h	/^	unsigned int userElementCount;$/;"	m	struct:si_ndrange_t
+userElementCount	opengl-bin-file.h	/^	unsigned int userElementCount;$/;"	m	struct:si_opengl_bin_enc_dict_entry_t
+userElements	ndrange.h	/^	struct si_bin_enc_user_element_t userElements[SI_ABI_MAX_USER_ELEMENTS];$/;"	m	struct:si_ndrange_t	typeref:struct:si_ndrange_t::si_bin_enc_user_element_t
+userElements	opengl-bin-file.h	/^	struct si_bin_enc_user_element_t userElements[MAX_USER_ELEMENTS];$/;"	m	struct:si_opengl_bin_enc_dict_entry_t	typeref:struct:si_opengl_bin_enc_dict_entry_t::si_bin_enc_user_element_t
+userRegCount	opengl-bin-file.h	/^	unsigned int userRegCount;$/;"	m	struct:si_opengl_bin_enc_semantic_mapping_t
+user_sgpr	opengl-bin-file.h	/^	unsigned int user_sgpr	: 7;$/;"	m	struct:si_opengl_bin_spi_shader_pgm_rsrc2_vs_t
+valid	ndrange.h	/^        unsigned int valid : 1;$/;"	m	struct:si_ndrange_table_entry_t
+value	isa.h	/^	unsigned int value;$/;"	m	struct:si_isa_write_task_t
+vector_alu_inst_count	emu.h	/^	long long vector_alu_inst_count;  \/* Vector ALU instructions executed *\/$/;"	v
+vector_alu_inst_count	wavefront.h	/^	long long vector_alu_inst_count;$/;"	m	struct:si_wavefront_t
+vector_mem_glc	wavefront.h	/^	unsigned int vector_mem_glc : 1;$/;"	m	struct:si_wavefront_t
+vector_mem_inst_count	emu.h	/^	long long vector_mem_inst_count;  \/* Vector mem instructions executed *\/$/;"	v
+vector_mem_inst_count	wavefront.h	/^	long long vector_mem_inst_count;$/;"	m	struct:si_wavefront_t
+vector_mem_read	wavefront.h	/^	unsigned int vector_mem_read : 1;$/;"	m	struct:si_wavefront_t
+vector_mem_write	wavefront.h	/^	unsigned int vector_mem_write : 1;$/;"	m	struct:si_wavefront_t
+vertex_buffer_table	ndrange.h	/^	unsigned int vertex_buffer_table;$/;"	m	struct:si_ndrange_t
+vertex_buffer_table_entries	ndrange.h	/^		vertex_buffer_table_entries[SI_EMU_MAX_NUM_VERTEX_BUFFERS];$/;"	m	struct:si_ndrange_t	typeref:struct:si_ndrange_t::si_ndrange_table_entry_t
+video_mem	emu.h	/^	struct mem_t *video_mem;  \/* local to the GPU *\/$/;"	v	typeref:struct:mem_t
+video_mem_top	emu.h	/^	unsigned int video_mem_top;$/;"	v
+vreg	work-item.h	/^	union si_reg_t vreg[256];  \/* Vector general purpose registers *\/$/;"	m	struct:si_work_item_t	typeref:union:si_work_item_t::si_reg_t
+vreg_read_count	work-group.h	/^	long long int vreg_read_count;$/;"	m	struct:si_work_group_t
+vreg_write_count	work-group.h	/^	long long int vreg_write_count;$/;"	m	struct:si_work_group_t
+vs_export_count	opengl-bin-file.h	/^	unsigned int vs_export_count		: 8;$/;"	m	struct:si_opengl_spi_vs_out_config_t
+vs_export_fog	opengl-bin-file.h	/^	unsigned int vs_export_fog 		: 8;$/;"	m	struct:si_opengl_spi_vs_out_config_t
+vs_half_pack	opengl-bin-file.h	/^	unsigned int vs_half_pack		: 8;$/;"	m	struct:si_opengl_spi_vs_out_config_t
+vs_out_fog_vec_addr	opengl-bin-file.h	/^	unsigned int vs_out_fog_vec_addr 	: 8;$/;"	m	struct:si_opengl_spi_vs_out_config_t
+waiting_work_groups	emu.h	/^	struct list_t *waiting_work_groups;$/;"	v	typeref:struct:list_t
+wavefront	work-item.h	/^	struct si_wavefront_t *wavefront;$/;"	m	struct:si_work_item_t	typeref:struct:si_work_item_t::si_wavefront_t
+wavefront_count	work-group.h	/^	int wavefront_count;$/;"	m	struct:si_work_group_t
+wavefront_pool	work-group.h	/^	struct si_wavefront_pool_t *wavefront_pool;$/;"	m	struct:si_work_group_t	typeref:struct:si_work_group_t::si_wavefront_pool_t
+wavefront_pool_entry	wavefront.h	/^	struct si_wavefront_pool_entry_t *wavefront_pool_entry;$/;"	m	struct:si_wavefront_t	typeref:struct:si_wavefront_t::si_wavefront_pool_entry_t
+wavefronts	work-group.h	/^	struct si_wavefront_t **wavefronts;  \/* Pointer to first wavefront in $/;"	m	struct:si_work_group_t	typeref:struct:si_work_group_t::si_wavefront_t
+wavefronts_at_barrier	work-group.h	/^	int wavefronts_at_barrier;$/;"	m	struct:si_work_group_t
+wavefronts_completed_emu	work-group.h	/^	int wavefronts_completed_emu;$/;"	m	struct:si_work_group_t
+wavefronts_completed_timing	work-group.h	/^	int wavefronts_completed_timing;$/;"	m	struct:si_work_group_t
+wg_id_sgpr	ndrange.h	/^	unsigned int wg_id_sgpr;$/;"	m	struct:si_ndrange_t
+width	emu.h	/^	unsigned int width           : 14;   \/*   [77:64] *\/$/;"	m	struct:si_image_desc_t
+work_dim	ndrange.h	/^	unsigned int work_dim;$/;"	m	struct:si_ndrange_t
+work_group	wavefront.h	/^	struct si_work_group_t *work_group;$/;"	m	struct:si_wavefront_t	typeref:struct:si_wavefront_t::si_work_group_t
+work_group	work-item.h	/^	struct si_work_group_t *work_group;$/;"	m	struct:si_work_item_t	typeref:struct:si_work_item_t::si_work_group_t
+work_group_count	emu.h	/^	long long work_group_count;  \/* Number of OpenCL work groups executed *\/$/;"	v
+work_item_count	wavefront.h	/^	int work_item_count;$/;"	m	struct:si_wavefront_t
+work_item_count	work-group.h	/^	int work_item_count;$/;"	m	struct:si_work_group_t
+work_item_id_first	wavefront.h	/^	int work_item_id_first;$/;"	m	struct:si_wavefront_t
+work_item_id_last	wavefront.h	/^	int work_item_id_last;$/;"	m	struct:si_wavefront_t
+work_items	wavefront.h	/^	struct si_work_item_t **work_items;  $/;"	m	struct:si_wavefront_t	typeref:struct:si_wavefront_t::si_work_item_t
+work_items	work-group.h	/^	struct si_work_item_t **work_items;  \/* Pointer to first work_item in $/;"	m	struct:si_work_group_t	typeref:struct:si_work_group_t::si_work_item_t
+write_mask	isa.h	/^	int gpr, rel, chan, index_mode, write_mask;$/;"	m	struct:si_isa_write_task_t
+xy_mag_filter	emu.h	/^	unsigned int xy_mag_filter      : 2;    \/*   [85:84] *\/ $/;"	m	struct:si_sampler_desc_t
+xy_min_filter	emu.h	/^	unsigned int xy_min_filter      : 2;    \/*   [87:86] *\/ $/;"	m	struct:si_sampler_desc_t
+z_filter	emu.h	/^	unsigned int z_filter           : 2;    \/*   [89:88] *\/ $/;"	m	struct:si_sampler_desc_t
